@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.25)  13 JUL 2017 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.25)  13 JUL 2017 19:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -1000,35 +1000,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package xr Warning: 
 No file Screen_data.aux
 LABELS NOT IMPORTED.
- on input line 154.
+ on input line 155.
 
 File: ./Figures/Setup_V2.eps Graphic file (type eps)
 <./Figures/Setup_V2.eps>
 File: ./Figures/electron_bunch.eps Graphic file (type eps)
  <./Figures/electron_bunch.eps> [2]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 202.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 203.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 202.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 203.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 211.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 212.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 212.
 
 (Tables/Screen_data.tex)
 File: ./Figures/Absolute.eps Graphic file (type eps)
  <./Figures/Absolute.eps>
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 236.
+(Font)              using `OT1/cmss/bx/n' instead on input line 237.
 
 [3] [4]
 File: ./Figures/Sat.eps Graphic file (type eps)
@@ -1036,10 +1036,10 @@ File: ./Figures/Sat.eps Graphic file (type eps)
 File: ./Figures/Dt_Min_rel.eps Graphic file (type eps)
  <./Figures/Dt_Min_rel.eps> [5]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 306.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 307.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 306.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 307.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -1069,4 +1069,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  34i,16n,37p,10377b,1053s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.dvi (7 pages, 45056 bytes).
+Output written on main.dvi (7 pages, 45088 bytes).
