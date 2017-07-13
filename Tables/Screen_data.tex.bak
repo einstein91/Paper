@@ -1,0 +1,22 @@
+\begin{center}
+\begin{table*}[htb]
+\centering
+\caption{Calibration values for different scintillation screens: The absolute light yield per incident electrons (first column) and the saturation threshold as well as the resulting fitting parameter (middle and right column).}
+\label{table:res}
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+Screen                   & \begin{tabular}[c]{@{}c@{}}Absolute fluorescence efficiency\\ ($10^9\;\text{ph/sr/pC}$)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Saturation threshold\\ ($10^3\; \text{pC/mm}^2$)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Birk's constant\\ ($10^{-5}\;mm^2/pC$)\end{tabular} \\
+\hline
+\hline
+
+KODAK BioMAX             & $7.67 \pm 0.42$                                                                               & $4.2 \pm 0.2$                                                                   & $5.9 \pm 0.3$                                                                  \\
+Cawo OG B                & $5.81 \pm 0.32$                                                                               & $5.0 \pm 0.3$                                                                   & $5.0 \pm 0.3$                                                                  \\
+Cawo OG F                & $3.70 \pm 0.26$                                                                               & $4.9 \pm 0.3$                                                                   & $5.1 \pm 0.3$                                                                  \\
+Konica Minolta OG 400    & $3.67 \pm 0.18$                                                                               & $5.2 \pm 0.4$                                                                   & $4.8 \pm 0.4$                                                                  \\
+Carestream Lanex Regular & $3.10 \pm 0.15$                                                                               & $5.1 \pm 0.3$                                                                   & $4.9 \pm 0.3$                                                                  \\
+Kodak Lanex Fine         & $0.96 \pm 0.06$                                                                               & $9.6 \pm 0.5$                                                                   & $2.6 \pm 0.3$                                                                  \\
+\hline
+\end{tabular}
+\end{table*}
+\end{center}

@@ -1,0 +1,29 @@
+Dear all,
+
+The analysis of the lanex beamtimes is now completed. 
+Jakob has done a fantastic job with the ICT analysis (his algorithm was able to detect every single(!) peak of each pulse train instead of summing over the amount of pulses in a train including baseline correction methods) leading to consistent results of the calibration runs.
+Brief summary, more details are attached:
+We do not trust the first run in september 2015 anymore because,
+	1. No ICT Signal was recorded.
+	2. Two following runs (May 2016 and November 2016) agree to each other and differ significantly from the old one.
+
+However in these two beamtimes following problems were present: 
+1. Unfortunately the camera was operated such that the png-images were saved in 8Bit although the chip can handle 12Bit (this problem is still not fixed!)
+2. On the first 24 hours of the November beamtime the gamma value was set to 3 yielding to unusable data
+
+The first problem was corrected assuming a 2D gaussian-shaped electron bunch. 
+A 2D gaussian fit served as correction for the truncation at the detection limit of the 8-Bit signal.
+For beams with a high dynamic range (those were the peak value spans almost over the entire dynamic range of the CCD-chip) this effect was only 1% or less.
+However, for settings with low dynmic range (directly after a change of the ND-filter) this effect was on the order of 4-8% depending on the filter strength.
+This problem also effects the slope-values but fortunatly only on the order of 1%. 
+Overall the errors of the absolute calibration are approx 5-6%.
+
+Points that still need to be done and discussed how to proceed:
+1. Difference to Buck et al.: Checking the effect of the Beryllium-window (100 µm thickness). 
+   One either could try to place a such material in a LWFA beamtime and see the behaviour (qualitative result, which can in principle explain the difference should be enough) 
+   or try to calculate the effect (PIConGPU codes?). 
+2. Explanation for the bright peak in the dauertests.
+
+Kind regards,
+Thomas   
+      
