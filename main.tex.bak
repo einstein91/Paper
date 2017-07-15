@@ -32,16 +32,16 @@ floatfix,
 
 \author{\firstname{Thomas} Kurz}
 \email[E-Mail adress: ]{t.kurz@hzdr.de}
- \affiliation{Forschungszentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
+ \affiliation{Helmholtz--Zentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
  \affiliation{Ludwig--Maximilians--Universität München, Am Coulombwall 1, D-85748 Garching, Germany}
  \affiliation{Technische Universität Dresden, D-01069 Dresden, Germany}
  
 \author{\surname{Jakob Matthias} Krämer}
- \affiliation{Forschungszentrum Dresden--Rossendorf, Bautzner Landstraße 400, D-01328 Dresden, Germany}
+ \affiliation{Helmholtz--Zentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
  \affiliation{Technische Universität Dresden, D-01069 Dresden, Germany}
  
 \author{\surname{Jurjen Pieter} Couperus}
- \affiliation{Forschungszentrum Dresden--Rossendorf, Bautzner Landstraße 400, D-01328 Dresden, Germany}
+ \affiliation{Helmholtz--Zentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
  \affiliation{Technische Universität Dresden, D-01069 Dresden, Germany}
  
 \author{\firstname{Hao} Ding}
@@ -53,11 +53,11 @@ floatfix,
  \affiliation{Friedrich--Schiller--Universität Jena, Fürstengraben 1, D-07743 Jena, Germany}
  
 \author{\surname{Alexander} Köhler}
- \affiliation{Forschungszentrum Dresden--Rossendorf, Bautzner Landstraße 400, D-01328 Dresden, Germany}
+ \affiliation{Helmholtz--Zentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
  \affiliation{Technische Universität Dresden, D-01069 Dresden, Germany} 
  
 \author{\surname{Omid} Zarini}
- \affiliation{Forschungszentrum Dresden--Rossendorf, Bautzner Landstraße 400, D-01328 Dresden, Germany}
+ \affiliation{Helmholtz--Zentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
  \affiliation{Technische Universität Dresden, D-01069 Dresden, Germany}
  
 \author{\firstname{Dominik} Hollatz}
@@ -76,10 +76,10 @@ floatfix,
  \affiliation{Universität Hamburg, Jungiusstraße 9, D-20355 Hamburg, Germany}
 
 \author{\surname{Arie} Irman}
- \affiliation{Forschungszentrum Dresden--Rossendorf, Bautzner Landstraße 400, D-01328 Dresden, Germany}
+ \affiliation{Helmholtz--Zentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
   
 \author{\surname{Ulrich} Schramm}
- \affiliation{Forschungszentrum Dresden--Rossendorf, Bautzner Landstraße 400, D-01328 Dresden, Germany}
+ \affiliation{Helmholtz--Zentrum Dresden--Rossendorf, Bautzner Landstraße 400,D-01328 Dresden, Germany}
   \affiliation{Technische Universität Dresden, D-01069 Dresden, Germany}
   
 \author{\firstname{Stefan} Karsch}
@@ -92,8 +92,8 @@ floatfix,
 
 This article gives information about the absolute light yield of different scintillating screens used in current laser-plasma experiments. 
 The calibration was designed to investigate the light/charge--conversion and saturation effects of different screens.  
-In order to reach the necessary electron fluence, the screens were excited by a focused electron beam, generating high peak charge density up to \SI[per-mode=symbol]{50}{\nano\coulomb \per \square\milli\meter} delivered from the ELBE linear accelerator at the Helmholtz Center in Dresden--Rossendorf. 
-A three orders of magnitude linearity in light yield to charge conversion was found including a distinct saturation starting at \SI[per-mode=symbol]{50}{\pico \coulomb \per \square \milli\meter}.
+In order to reach the necessary electron fluence, the screens were excited by a focused electron beam, generating high peak charge density up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} delivered from the ELBE linear accelerator at the Helmholtz Center in Dresden--Rossendorf. 
+A three orders of magnitude linearity in light yield to charge conversion was found followed by a saturation area starting in the range of \si[per-mode=symbol]{\nano \coulomb \per \square \milli\meter}.
 Furthermore for a specific type of scintillator long--term stability test were done. 
 A significant decrease of the scintillation efficiency within LWFA--relevant conditions was found.    
 Also included is a description for a new type of reference light source performing the screen cross--calibration. 
@@ -122,10 +122,11 @@ use the optional argument of the \verb+\item+ command to give the category of ea
 
 \section{\label{Mot} Introduction}
 
-In 1979 Tajima and Dawson founded the theoretical basis for laser--plasma experiments\myCite{Tajima1979}.
+In 1979 Tajima and Dawson described the theoretical basics for laser--plasma experiments\myCite{Tajima1979}.
 Since these three decades the laser technology improved a lot and state of the art laser--systems are able to operate in the petawatt--regime\myCite{Gaul2010}, making it possible to accelerate quasi--monoenergetic\myCite{Geddes2004, Faure2004, Mangles2004} electron bunches containing charges of several hundred \si{\pico\coulomb} to energies in the \si{\giga\electronvolt}--level\myCite{Leemans2014,Schroeder2007,Wang2013}.
 The main advantage of this new type of accelerator is a reduction of costs and size thanks to strong field gradients of \SI[per-mode=symbol]{100}{\giga\electronvolt\per\metre}\myCite{Esarey2009,Hooker2013}. 
-Furthermore the combination of ultra--short bunch duration and a significant bunch charge can lead to peak currents in the \si{\kilo\ampere}--range. Therefore LPA's are a very promising candidate to drive next-generation light sources such as compact X--Ray free electron lasers\myCite{Albert2014}.
+Furthermore the combination of ultra--short bunch duration and a significant bunch charge can lead to peak currents in the \si{\kilo\ampere}--range[Jurjen]. 
+Therefore LPA's are a very promising candidate to drive next-generation light sources such as $\upgamma$--ray sources and compact X--Ray free electron lasers\myCite{Albert2014}.
  
 In order to evaluate the quality of the accelerated electron--bunch, a well suited detector is needed. 
 Classification parameters are the charge in the peak of the electron spectrum and the energy distribution of the electrons as well as the transverse emittance of the electron beam. 
@@ -152,7 +153,7 @@ The results are finally discussed in Sec. \ref{Cn}.
 
 \section{\label{Set} Experimental setup}
 \externaldocument{Screen_data}
-The setup for the absolute charge calibration of the scintillation screens is illustrated in Fig.\ref{fig:Setup}.
+The setup for the absolute charge calibration of the scintillation screens is illustrated in Fig. \ref{fig:Setup}.
 The measurement was performed at the ELBE linear accelerator (LINAC) at the Helmholtz Center in Dresden--Rossendorf. 
 The accelerator was operated such that it produced sub--\SI{10}{\pico\second} long electron bunches with charges up to \SI{50}{\pico\coulomb} and a maximum kinetic energy of \SI{23}{\mega\electronvolt} at \SI{13}{\mega\hertz} repetition rate.  
 For generating even higher charges, the accelerator can change into multiple bunch mode. 
@@ -164,14 +165,14 @@ The electron beam emitted by the LINAC is focused by magnetic quadrupoles to a f
 This leads to a FWHM--beam size of \SIrange{6}{7}{\milli\metre^2} at the target which is necessary for observing saturation effects in the active layer of the screens. 
 In front of the screen, the charge of the focused electron bunch is measured by an integrated current transformer (ICT-082-070-05:1-VAC, Bergoz Instrumentation, France).
 Simulations show that the energy deposition of the electrons inside the photo--luminescent layer is independent of the their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
-Thus the calibration results can be used to determine the charge in a highly relativistic experiment, i.e. laser wakefield acceleration. 
+Thus the calibration results can be used to determine the charge in an experiment with highly relativistic electrons, i.e. laser wakefield acceleration. 
 After passing the ICT, the electrons collide with the screen. 
 The screens were mounted on a rotating target wheel (Edmund optics, 12 Position Filter Wheel for 0.5" Filters) which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam in order to place the silver mirror off--axis. 
 In the active layer of the screen, phosphor atoms get excited by the incoming electrons which radiate photons while relaxing back into the ground state. 
 The light emission distribution of these screens follows approximately Lambertian law\myCite{Giakoumakis1985}. 
 The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12–bit CCD–camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective. 
 Thanks to the alignment of the mirror the camera looks perpendicularly onto the screens which maximizes the light emission onto the CCD–-chip according to Lambertian law. 
-In front of the camera--lens another ND--filter wheel ranging from ND0.5 to ND4.0 is placed for generating a dynamic range containing 7 orders of magnitude. 
+In front of the camera--lens, another ND--filter wheel ranging from ND0.5 to ND4.0 is placed for generating a dynamic range containing 7 orders of magnitude. 
 Additionally an optical fiber (Thorlabs, M200L02S-A), placed on a linear motor (Owis, LTM-60-75HSM) and connected to a spectrometer (Ocean Optics, HR4000), is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources. 
 
 \begin{figure}
@@ -192,7 +193,7 @@ The area of the bunch at FWHM is $\approx$ \SI{6}{\square\milli\meter}.}
 
 \section{\label{Res} Results}
 \subsection{\label{Ac} Absolute charge calibration}
-We have calibrated our optical detection system in order to calculate the absolute amount of photons emitted by the the scintillator.
+We have calibrated our optical detection system in order to calculate the absolute amount of \si[per-mode=symbol]{photons \per \steradian}  emitted by the the scintillator.
 Together with a precise knowledge (5$\%$ accuracy) of the LINAC's bunch charge we are able to determine the absolute scintillation efficiency (\si[per-mode=symbol]{photons \per e^-}) in case of an excitation with relativistic electrons.
 The effective aperture in our optical detection system was defined by the diameter of a one--inch large ND--filter.
 It was mounted in front of the filter--wheel and placed at a distance of \SI[separate-uncertainty = true]{361(4)}{\milli\metre} to the target.
@@ -208,14 +209,14 @@ $\upbeta$ denotes the efficiency of the entire detection system, i.e. the probab
 Finally $\Upomega$ symbolizes the effective collection angle in units of steradian.
 For completeness, $\upbeta$ can be disassembled in its individual parts. 
 The transmission of the off-axis mirror at the specific wavelength is \SI[separate-uncertainty = true]{97(1)}{\%}, the window of the vacuum--chamber transmits \SI[separate-uncertainty = true]{91.3(5)}{\%} of the incoming light and the objective images \num[separate-uncertainty = true]{88(1)} out of 100 impinging photons on the the chip.
-Furthermore the photon--to--count conversion efficiency of \SI[separate-uncertainty = true]{32.8(17)}{\%} of the CCD--chip (Sony ICX445) and its associated readout-electronics have been determined precisely using a well--calibrated photo--spectrometer. 
- 
+Furthermore the photon--to--count conversion efficiency of \SI[separate-uncertainty = true]{32.8(17)}{\%} of the CCD--chip (Sony ICX445) and its associated readout-electronics have been determined precisely using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).  
+
 \input{./Tables/Screen_data}
-  
+
 The response function of each screen excited by relativistic electrons is depicted in Fig. \ref{fig:Calib}.
-The curves show a linear behavior until an upper boundary caused by saturation and degeneration effects (\ref{Se},\ref{Ls}).  
-In order to determine a calibration value for the absolute brightness of the different scintillator a linear fit has been applied to all datapoints within the linear region.
-The resulting calibration values are shown in table \ref{table:res}. 
+The curves show a linear behavior until an upper boundary caused by saturation and degeneration effects (Sec. \ref{Se},\ref{Ls}).  
+In order to determine the calibration value for the absolute brightness of the different scintillator a linear fit has been applied to all datapoints within the linear region.
+The resulting calibration values are shown in TABLE \ref{table:res}. 
 The error of the values was determined using the method of Gaussian error propagation.
 
 For selected screens the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
@@ -297,7 +298,7 @@ The decay of the photon signal during this experiment was $~11\%$.}
 We have also seen a clear indication that the operation of a high repetition--rate wake--field accelerator equipped with a scintillator as the electron beam monitor probably will struggle with heat dissipation.
 The temporal evolution of the fluorescence efficiency during a different 'Long term' test than the above discussed one is plotted in Fig. \ref{fig:Damage}.
 In order to describe the behavior it is useful to divide the graph into three parts labeled with the according number. 
-At first, is working and shows its characteristic decay. 
+First, the scintillator is working and shows its characteristic decay. 
 A representative beam profile for a shot at \SI[per-mode=symbol]{50}{\nano\coulomb \per \milli\meter\square}  supports this behavior.
 At a certain point (labeled with 2), the thermal load induced by the impinging electrons becomes to high and the screen 'fires up' in a bright spot with a hole in its center.
 Afterwards the screen is permanently damaged and much darker than before.
@@ -325,7 +326,8 @@ On the one hand we have have shown that a realistic set of beam parameters can l
 And on the other hand a careful heat dissipation management is necessary in order to implement these screens as the electron diagnostic in a LPA.
       
 \section*{\label{Ack} Acknowledgments}
-This work was supported by I don't knowwwwwwwwwww.
+This work was supported by Candy coalition THE LEAGUE.
+And only by THE LEAGUE!
 
 \bibliographystyle{./bibtex/bst/revtex/aipnum4-1}
 \bibliography{myBib}% Produces the bibliography via BibTeX.
