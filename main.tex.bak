@@ -123,10 +123,10 @@ use the optional argument of the \verb+\item+ command to give the category of ea
 \section{\label{Mot} Introduction}
 
 In 1979 Tajima and Dawson described the theoretical basics for laser--plasma experiments\myCite{Tajima1979}.
-Since these three decades the laser technology improved a lot and state of the art laser--systems are able to operate in the petawatt--regime\myCite{Gaul2010}, making it possible to accelerate quasi--monoenergetic\myCite{Geddes2004, Faure2004, Mangles2004} electron bunches containing charges of several hundred \si{\pico\coulomb} to energies in the \si{\giga\electronvolt}--level\myCite{Leemans2014,Schroeder2007,Wang2013}.
+Since these three decades the laser technology improved a lot and state of the art laser--systems are able to operate in the petawatt--regime\myCite{Gaul2010}, making it possible to accelerate quasi--monoenergetic\myCite{Geddes2004, Faure2004, Mangles2004} electron bunches containing charges of several hundred \si{\pico\coulomb} to energies in the \si{\giga\electronvolt}--level\myCite{Leemans2014, Schroeder2007, Wang2013}.
 The main advantage of this new type of accelerator is a reduction of costs and size thanks to strong field gradients of \SI[per-mode=symbol]{100}{\giga\electronvolt\per\metre}\myCite{Esarey2009,Hooker2013}. 
-Furthermore the combination of ultra--short bunch duration and a significant bunch charge can lead to peak currents in the \si{\kilo\ampere}--range[Jurjen]. 
-Therefore LPA's are a very promising candidate to drive next-generation light sources such as $\upgamma$--ray sources and compact X--Ray free electron lasers\myCite{Albert2014}.
+Furthermore the combination of ultra--short bunch duration and a significant bunch charge can lead to peak currents in the \si{\kilo\ampere}--range[Jurjen paper]. 
+Therefore LPA's are a very promising candidate to drive next-generation light sources such as $\upgamma$--ray sources\myCite{Sarri2014, TaPhuoc2012} and compact X--Ray free electron lasers\myCite{Schlenvoigt2008, Fuchs2009, Albert2014}.
  
 In order to evaluate the quality of the accelerated electron--bunch, a well suited detector is needed. 
 Classification parameters are the charge in the peak of the electron spectrum and the energy distribution of the electrons as well as the transverse emittance of the electron beam. 
@@ -154,26 +154,32 @@ The results are finally discussed in Sec. \ref{Cn}.
 \section{\label{Set} Experimental setup}
 \externaldocument{Screen_data}
 The setup for the absolute charge calibration of the scintillation screens is illustrated in Fig. \ref{fig:Setup}.
-The measurement was performed at the ELBE linear accelerator (LINAC) at the Helmholtz Center in Dresden--Rossendorf. 
+The measurement was performed at the ELBE linear accelerator (LINAC) at the Helmholtz--Zentrum Dresden--Rossendorf. 
 The accelerator was operated such that it produced sub--\SI{10}{\pico\second} long electron bunches with charges up to \SI{50}{\pico\coulomb} and a maximum kinetic energy of \SI{23}{\mega\electronvolt} at \SI{13}{\mega\hertz} repetition rate.  
-For generating even higher charges, the accelerator can change into multiple bunch mode. 
+For generating higher charges, the accelerator changed into multiple bunch mode. 
 This means one single bunch is followed by a train of pulses which is tunable in its length.
 The temporal delay of the single bunches within this pulse--train is \SI{77}{\nano\second}. 
 All these short bunches add their charge onto the screens, due to the short delay compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
 
 The electron beam emitted by the LINAC is focused by magnetic quadrupoles to a focal spot.
-This leads to a FWHM--beam size of \SIrange{6}{7}{\milli\metre^2} at the target which is necessary for observing saturation effects in the active layer of the screens. 
-In front of the screen, the charge of the focused electron bunch is measured by an integrated current transformer (ICT-082-070-05:1-VAC, Bergoz Instrumentation, France).
-Simulations show that the energy deposition of the electrons inside the photo--luminescent layer is independent of the their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
-Thus the calibration results can be used to determine the charge in an experiment with highly relativistic electrons, i.e. laser wakefield acceleration. 
+This leads to a FWHM--beam size of \SIrange{6}{7}{\milli\metre^2} at the target.
+This small spot size enabled us to reach charge densities up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} which are necessary to study saturation effects in the active layer of the scintillator.
+In front of the screen, the charge of the focused electron bunch is measured by an integrated current transformer (ICT-082-070-05:1-VAC, Bergoz Instrumentation, France). 
+In order to get a useful ICT signal the pulses were amplified (Pulse Amplifier Coaxial ZPUL-30P, Mini Circuits, USA) and recorded by a high quality oscilloscope (Information required).
+Simulations show that the energy deposition of the electrons inside the photo--luminescent layer is almost independent of the their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
+Thus the calibration results can be used to determine the charge in an experiment with highly relativistic electrons, i.e. laser wakefield acceleration even though the energy is one order magnitude lower than in LPA experiments. 
 After passing the ICT, the electrons collide with the screen. 
-The screens were mounted on a rotating target wheel (Edmund optics, 12 Position Filter Wheel for 0.5" Filters) which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam in order to place the silver mirror off--axis. 
+The screens were mounted on a rotating target wheel which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam.
+This geometry enables us to mount the deflector mirror out of the beam--axis and therefore avoid any optical transition radiation (OTR) background. 
 In the active layer of the screen, phosphor atoms get excited by the incoming electrons which radiate photons while relaxing back into the ground state. 
 The light emission distribution of these screens follows approximately Lambertian law\myCite{Giakoumakis1985}. 
-The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12–bit CCD–camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective. 
+The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12–bit CCD–camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective imaged to the CCD--chip. 
 Thanks to the alignment of the mirror the camera looks perpendicularly onto the screens which maximizes the light emission onto the CCD–-chip according to Lambertian law. 
 In front of the camera--lens, another ND--filter wheel ranging from ND0.5 to ND4.0 is placed for generating a dynamic range containing 7 orders of magnitude. 
-Additionally an optical fiber (Thorlabs, M200L02S-A), placed on a linear motor (Owis, LTM-60-75HSM) and connected to a spectrometer (Ocean Optics, HR4000), is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources. 
+The ND--filters are an important component because they are used directly (part of $\upbeta$ in eq. \ref{eq:ac} in the calibration run to adapt screen's signal to the dynamic range of the CCD--camera as well as in the quantum efficiency measurement of the CCD--chip that was used in the experiment.
+Thus the filters were calibrated precisely using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).
+Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics ) is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources.
+The fiber is placed on a linear motor to switch quickly between calibration and spectrum measurements.  
 
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Setup_V2}% Here is how to import EPS art
@@ -202,6 +208,7 @@ A representative image of an electron bunch that was recorded by the CCD--chip d
 Therefore, the number of photons emitted by scintillator and normalized by the amount of incident electrons can be described as
 \begin{equation}
 \frac{N_{\text{photon}}}{N_{\text{electron}}} = N_{\text{count}}\theta\beta^{-1}\Omega^{-1}N_{\text{electron}}^{-1}
+\label{eq:ac}
 \end{equation}
 where $\uptheta$ quantifies the orientation of the electron beam and normal vector of the scintillator's surface as a cosine of this angle, \SI[separate-uncertainty = true]{22(1)}{\degree} in our case.
 Thus the photon signal recorded by the CCD--camera was corrected to vertical incidence of the electrons.
