@@ -1,7 +1,7 @@
  % ****** Start of file main.tex ******
 
 \documentclass[%
-reprint,
+preprint,
 amsmath,
 amssymb,
 aip,
@@ -157,7 +157,7 @@ The setup for the absolute charge calibration of the scintillation screens is il
 The measurement was performed at the ELBE linear accelerator (LINAC) at the Helmholtz--Zentrum Dresden--Rossendorf. 
 The accelerator was operated such that it produced sub--\SI{10}{\pico\second} long electron bunches with charges up to \SI{50}{\pico\coulomb} and a maximum kinetic energy of \SI{23}{\mega\electronvolt} at \SI{13}{\mega\hertz} repetition rate.  
 For generating higher charges, the accelerator changed into multiple bunch mode. 
-This means one single bunch is followed by a train of pulses which is tunable in its length.
+This means the cavity emits a train of pulses that is tunable in its length.
 The temporal delay of the single bunches within this pulse--train is \SI{77}{\nano\second}. 
 All these short bunches add their charge onto the screens, due to the short delay compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
 
@@ -165,7 +165,7 @@ The electron beam emitted by the LINAC is focused by magnetic quadrupoles to a f
 This leads to a FWHM--beam size of \SIrange{6}{7}{\milli\metre^2} at the target.
 This small spot size enabled us to reach charge densities up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} which are necessary to study saturation effects in the active layer of the scintillator.
 In front of the screen, the charge of the focused electron bunch is measured by an integrated current transformer (ICT-082-070-05:1-VAC, Bergoz Instrumentation, France). 
-In order to get a useful ICT signal the pulses were amplified (Pulse Amplifier Coaxial ZPUL-30P, Mini Circuits, USA) and recorded by a high quality oscilloscope (Information required).
+In order to get a useful ICT signal the pulses were amplified (Pulse Amplifier Coaxial ZPUL-30P, Mini Circuits, USA) by roughly a factor of 50 and recorded by a high quality oscilloscope (Information required).
 Simulations show that the energy deposition of the electrons inside the photo--luminescent layer is almost independent of the their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
 Thus the calibration results can be used to determine the charge in an experiment with highly relativistic electrons, i.e. laser wakefield acceleration even though the energy is one order magnitude lower than in LPA experiments. 
 After passing the ICT, the electrons collide with the screen. 
@@ -176,11 +176,11 @@ The light emission distribution of these screens follows approximately Lambertia
 The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12–bit CCD–camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective imaged to the CCD--chip. 
 Thanks to the alignment of the mirror the camera looks perpendicularly onto the screens which maximizes the light emission onto the CCD–-chip according to Lambertian law. 
 In front of the camera--lens, another ND--filter wheel ranging from ND0.5 to ND4.0 is placed for generating a dynamic range containing 7 orders of magnitude. 
-The ND--filters are an important component because they are used directly (part of $\upbeta$ in eq. \ref{eq:ac} in the calibration run to adapt screen's signal to the dynamic range of the CCD--camera as well as in the quantum efficiency measurement of the CCD--chip that was used in the experiment.
+The ND--filters are an important component because they are used directly (part of $\upbeta$ in eq. \ref{eq:ac}) in the calibration run to adapt the screen's signal to the dynamic range of the CCD--camera as well as in the quantum efficiency measurement of the CCD--chip.
 Thus the filters were calibrated precisely using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).
 Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics ) is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources.
-The fiber is placed on a linear motor to switch quickly between calibration and spectrum measurements.  
-
+The fiber is placed on a linear motor to switch quickly between calibration and spectrum measurements. 
+ 
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Setup_V2}% Here is how to import EPS art
 \caption{\label{fig:Setup}Setup for absolute charge calibration of scintillation screens: ICT measures the charge of the electron beam. 
@@ -201,32 +201,33 @@ The area of the bunch at FWHM is $\approx$ \SI{6}{\square\milli\meter}.}
 \subsection{\label{Ac} Absolute charge calibration}
 We have calibrated our optical detection system in order to calculate the absolute amount of \si[per-mode=symbol]{photons \per \steradian}  emitted by the the scintillator.
 Together with a precise knowledge (5$\%$ accuracy) of the LINAC's bunch charge we are able to determine the absolute scintillation efficiency (\si[per-mode=symbol]{photons \per e^-}) in case of an excitation with relativistic electrons.
-The effective aperture in our optical detection system was defined by the diameter of a one--inch large ND--filter.
-It was mounted in front of the filter--wheel and placed at a distance of \SI[separate-uncertainty = true]{361(4)}{\milli\metre} to the target.
+The effective aperture in our optical detection system was defined by the diameter of a one--inch large aperture.
+It was mounted at a distance of \SI[separate-uncertainty = true]{361(4)}{\milli\metre} to the target.
 The diameter was measured to be \SI[separate-uncertainty = true]{22.96(5)}{\milli\metre} resulting in a collection angle of \SI[separate-uncertainty = true]{2.89(7)e-3}{\steradian}.
 A representative image of an electron bunch that was recorded by the CCD--chip during the calibration is shown in Fig. \ref{fig:electron_bunch}. For the analysis of the brightness of the scintillator, the CCD--counts of this image are summed up and the camera background as well as the accelerator background (darkccurrent) is subtracted. 
-Therefore, the number of photons emitted by scintillator and normalized by the amount of incident electrons can be described as
+Therefore, the number of photons N$_{\text{photon}}$ emitted by the scintillator into a surface covering one steradian per amount of incident electrons N$_{\text{electron}}$ can be described as
 \begin{equation}
-\frac{N_{\text{photon}}}{N_{\text{electron}}} = N_{\text{count}}\theta\beta^{-1}\Omega^{-1}N_{\text{electron}}^{-1}
+\frac{N_{\text{photon}}}{N_{\text{electron}}} = N_{\text{count}}\cos(\theta)\beta^{-1}\Omega^{-1}N_{\text{electron}}^{-1}{\;,}
 \label{eq:ac}
 \end{equation}
-where $\uptheta$ quantifies the orientation of the electron beam and normal vector of the scintillator's surface as a cosine of this angle, \SI[separate-uncertainty = true]{22(1)}{\degree} in our case.
-Thus the photon signal recorded by the CCD--camera was corrected to vertical incidence of the electrons.
+where N$_{\text{count}}$ describes the number of counts summed up over the ROI of the raw image.
+$\uptheta$ is the orientation of the electron beam and normal vector of the scintillator's surface.
+Thus the photon signal recorded by the CCD--camera was corrected to the incidence angle of the electrons.
 $\upbeta$ denotes the efficiency of the entire detection system, i.e. the probability for a photon created at the source, traveling through the optical beamline, reaching the CCD--chip and finally being converted to a binary number by the ADC.
 Finally $\Upomega$ symbolizes the effective collection angle in units of steradian.
 For completeness, $\upbeta$ can be disassembled in its individual parts. 
 The transmission of the off-axis mirror at the specific wavelength is \SI[separate-uncertainty = true]{97(1)}{\%}, the window of the vacuum--chamber transmits \SI[separate-uncertainty = true]{91.3(5)}{\%} of the incoming light and the objective images \num[separate-uncertainty = true]{88(1)} out of 100 impinging photons on the the chip.
-Furthermore the photon--to--count conversion efficiency of \SI[separate-uncertainty = true]{32.8(17)}{\%} of the CCD--chip (Sony ICX445) and its associated readout-electronics have been determined precisely using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).  
+Furthermore the photon--to--count conversion efficiency of \SI[separate-uncertainty = true]{32.8(17)}{\%} of the CCD--chip (Sony ICX445) and its associated readout-electronics have been determined precisely using well--calibrated ND--filters to adapt the photon flux from a green laser.  
 
 \input{./Tables/Screen_data}
 
-The response function of each screen excited by relativistic electrons is depicted in Fig. \ref{fig:Calib}.
+The response functions for the different screens are shown in Fig. \ref{fig:Calib}.
 The curves show a linear behavior until an upper boundary caused by saturation and degeneration effects (Sec. \ref{Se},\ref{Ls}).  
-In order to determine the calibration value for the absolute brightness of the different scintillator a linear fit has been applied to all datapoints within the linear region.
+In order to determine the calibration value for the absolute response of the different scintillator, a linear fit has been applied to all datapoints within the linear region.
 The resulting calibration values are shown in TABLE \ref{table:res}. 
 The error of the values was determined using the method of Gaussian error propagation.
 
-For selected screens the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
+For selected screens such as Kodak BioMAX MS, the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
 A consistent difference of approximately factor two higher fluorescence efficiency is found.
 To our experience this discrepancy cannot be explained by any differences in the experimental setup as well as the target properties i.e. aging effects.
 However a calculation from values published by Glinec et al.\myCite{Glinec2006} leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
@@ -241,15 +242,17 @@ The red circle is determined by a calculation from a MC--Simulation reported in 
 However, the red square supporting our values was deduced from the full set of experimental results given by Glinec et al.. }
 \end{figure*}
 
-\subsubsection{\label{Cc}Cross--calibration}
-As already stated, the absolute \si{photon \per \steradian \per \pico\coulomb}--ratio of the scintillation screens depends on the geometry of the optical detection system. 
+\subsubsection{\label{Cc}Cross--calibration} 
 In order to simplify the determination of the charge in a laser--plasma experiment based on the result of this calibration experiment, additionally reference light sources were recorded by the CCD–-camera. 
 As long as the reference source delivers a constant photon signal over time and the calibration was performed with identical geometrical parameters (ensured by the filter--wheel in our case) the relative signal between the screen and the reference light source became independent of the detector geometry.
 In particular, we implemented a gaseous tritium light source (GTLS) and an LED--based diffused green radiator.
-The LED--source is aimed for an extended life time in ambient conditions but cannot be used directly in a LPA--experiment.
+The LED--source is aimed for an extended life time in ambient conditions because it operated by a constant current source with current fluctuation below $1\%$.
+Fortunately, the source is not very sensitive to temperature variation therefore the stabilization in laboratory environment is sufficient to keep the LED--signal constant in the level of per mille.  
+However it cannot be used directly in a LPA--experiment.
 Thus it serves as a master reference for the tritium sources.
 Due to their systematic drop in absolute luminosity\myCite{Buck2010}, they are cross--calibrated to the master source in regular time intervals.
- 
+Thus the error of the cross calibration measurement do not add up to $10\%$ within a few years, instead it can be kept at least a factor of 5 lower and therefore new calibration runs are not required.
+
 \subsubsection{\label{Se}Saturation effects}
 The absolute \si{photon \per \steradian \per \pico\coulomb}--ratio has been evaluated by the slope of the calibration function in Fig. \ref{fig:Calib}. 
 The figure also illustrates that this calibration is only valid in a specific charge interval with an upper boundary determined by saturation effects. 
