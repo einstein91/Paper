@@ -257,13 +257,14 @@ Thus the error of the cross calibration measurement do not add up to $10\%$ with
 The absolute \si{photon \per \steradian \per \pico\coulomb}--ratio has been evaluated by the slope of the calibration function in Fig. \ref{fig:Calib}. 
 The figure also illustrates that this calibration is only valid in a specific charge interval with an upper boundary determined by saturation effects. 
 Above the threshold charge density $\uprho_{\text{sat}}$ the signal/charge--ratio gets non--linear due to a saturation in the active layer of the scintillator.
+Saturation occurs because probability that a certain atoms gets excited multiple times before relaxing back into the ground state increases with increasing charge density.
 Birk’s law is used to fit the response curve of the scintillator:
 \begin{equation}
-\uprho_{\text{scint}} = \frac{\uprho_{\text{ICT}}}{1+B\uprho_{\text{ICT}}}
+\uprho_{\text{scint}} = \frac{\uprho_{\text{ICT}}}{1+B\uprho_{\text{ICT}}}{\;,}
 \label{eq:birk}
 \end{equation}
 where the fit parameter B is called Birk's constant.
-$\uprho_{\text{ICT}}$ indicates the charge density in the peak of the electron bunch recorded by the ICT, whereas $\uprho_{\text{scint}}$ defines the peak visible on the scintillator.
+$\uprho_{\text{ICT}}$ indicates the charge density in the peak of the electron bunch recorded by the ICT, whereas $\uprho_{\text{scint}}$ defines the charge detected by the scintillator.
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Sat}% Here is how to import EPS art
 \caption{\label{fig:Sat} Typical response function of Kodak Biomax MS: The peak charge density emitted by the screen vs. the peak charge density calculated with respect to the ICT data. 
@@ -272,15 +273,16 @@ The measured data is fitted with Birk's law of saturation (red line, see eq.\ref
 The black dotted line indicates $\uprho_{\text{Scint}} = \uprho_{\text{ICT}}$.}
 \end{figure}
 The saturation value $\uprho_{\text{sat}}$ is defined as the peak charge density, at which the scintillation signal has dropped down to 80$\%$ compared to the linear behavior.
-This is an arbitrary measure but it is chosen such that the saturation effect can be clearly distinguished from measurement uncertainties in the linear case. 
+This arbitrary measure is chosen such that the saturation effect can be clearly distinguished from measurement uncertainties in the linear case. 
 The resulting threshold values and the fit parameter B for the different screens are shown in table \ref{table:res}.
 Fig. \ref{fig:Sat} shows a saturated response of the scintillation peak signal with increasing electron peak charge density. 
 The black dashed line shows the ideal linear correlation of $\uprho_{\text{scint}}$ and $\uprho_{\text{ICT}}$, while the red curve indicates the fit along the measured data. 
 We observe significant non--linearities in the saturation curve in the range of \si[per-mode=symbol]{\nano\coulomb \per \square\milli\meter} which is far beyond current LPA's but this effects might become important in the future. 
 However the experimental implementation of the setup overestimates this effect by several percent. 
-This is due to the fact that the accelerator strings together a fixed amount of electrons to reach the high charges.
-For the highest applied charges the temporal length of the pulse train has reached $15\%$ of the life--time of the excited state.
+This is due to the fact that the pulse length of the Linac increases with increasing charge density.
+For the highest applied charges, the temporal length of the pulse train becomes significantly high compared to the life--time of the excited state.
 Electrons in the back of the bunch have an enhanced probability to excite an atom that has already relaxed back and thus add less to saturation.
+The errorbars of those data--points 
 For the same amount of applied accumulated electron dose at which reversible saturation is visible additionally permanent degeneration (see Sec. \ref{Ls}) comes into play.
 Measurement with a low charge of \SI{60}{\pico\coulomb} between each data--point in Fig. \ref{fig:Calib} were performed to get a reasonable estimation for the correction factor in the saturation curve.
 Hence Fig. \ref{fig:Sat} is corrected for this damage and shows 'pure' saturation.      
