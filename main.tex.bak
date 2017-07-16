@@ -246,12 +246,13 @@ However, the red square supporting our values was deduced from the full set of e
 In order to simplify the determination of the charge in a laser--plasma experiment based on the result of this calibration experiment, additionally reference light sources were recorded by the CCD–-camera. 
 As long as the reference source delivers a constant photon signal over time and the calibration was performed with identical geometrical parameters (ensured by the filter--wheel in our case) the relative signal between the screen and the reference light source became independent of the detector geometry.
 In particular, we implemented a gaseous tritium light source (GTLS) and an LED--based diffused green radiator.
-The LED--source is aimed for an extended life time in ambient conditions because it operated by a constant current source with current fluctuation below $1\%$.
-Fortunately, the source is not very sensitive to temperature variation therefore the stabilization in laboratory environment is sufficient to keep the LED--signal constant in the level of per mille.  
-However it cannot be used directly in a LPA--experiment.
-Thus it serves as a master reference for the tritium sources.
-Due to their systematic drop in absolute luminosity\myCite{Buck2010}, they are cross--calibrated to the master source in regular time intervals.
-Thus the error of the cross calibration measurement do not add up to $10\%$ within a few years, instead it can be kept at least a factor of 5 lower and therefore new calibration runs are not required.
+The LED--source is aimed for an extended life time because it is operated by a constant current source with current fluctuation below $1\%$.
+Fortunately, the source is not very sensitive to temperature variation therefore the stabilization in laboratory environment is sufficient to keep the signal variations induced by temperature fluctuations in the order of per mille.  
+Thus the error of the cross calibration measurement do not add up to $10\%$ within a few years, instead it can be kept at least a factor of 5 lower and therefore the calibration values are longer valid.
+However, in certain scenarios the GTLS are still preferred due to their small size and vacuum compatibility.
+In such cases the LED--source act as a master light source to which tritium light sources can be cross--calibrated in regular intervals.
+
+
 
 \subsubsection{\label{Se}Saturation effects}
 The absolute \si{photon \per \steradian \per \pico\coulomb}--ratio has been evaluated by the slope of the calibration function in Fig. \ref{fig:Calib}. 
@@ -274,30 +275,30 @@ The black dotted line indicates $\uprho_{\text{Scint}} = \uprho_{\text{ICT}}$.}
 \end{figure}
 The saturation value $\uprho_{\text{sat}}$ is defined as the peak charge density, at which the scintillation signal has dropped down to 80$\%$ compared to the linear behavior.
 This arbitrary measure is chosen such that the saturation effect can be clearly distinguished from measurement uncertainties in the linear case. 
-The resulting threshold values and the fit parameter B for the different screens are shown in table \ref{table:res}.
 Fig. \ref{fig:Sat} shows a saturated response of the scintillation peak signal with increasing electron peak charge density. 
 The black dashed line shows the ideal linear correlation of $\uprho_{\text{scint}}$ and $\uprho_{\text{ICT}}$, while the red curve indicates the fit along the measured data. 
 We observe significant non--linearities in the saturation curve in the range of \si[per-mode=symbol]{\nano\coulomb \per \square\milli\meter} which is far beyond current LPA's but this effects might become important in the future. 
+The resulting threshold values and the fit parameter B for the different screens are shown in table \ref{table:res}.
 However the experimental implementation of the setup overestimates this effect by several percent. 
 This is due to the fact that the pulse length of the Linac increases with increasing charge density.
 For the highest applied charges, the temporal length of the pulse train becomes significantly high compared to the life--time of the excited state.
 Electrons in the back of the bunch have an enhanced probability to excite an atom that has already relaxed back and thus add less to saturation.
-The errorbars of those data--points 
+Hence the errorbars of those data--points are larger to include this uncertainty.
 For the same amount of applied accumulated electron dose at which reversible saturation is visible additionally permanent degeneration (see Sec. \ref{Ls}) comes into play.
-Measurement with a low charge of \SI{60}{\pico\coulomb} between each data--point in Fig. \ref{fig:Calib} were performed to get a reasonable estimation for the correction factor in the saturation curve.
+Reference measurement with a low charge of \SI{60}{\pico\coulomb} after each increment of the bunch charge during the calibration were performed to get a reasonable estimation for the correction factor in the saturation curve.
 Hence Fig. \ref{fig:Sat} is corrected for this damage and shows 'pure' saturation.      
 
 \subsection{\label{Ls}Long--term stability tests}
-A reliable performance of the particle detector is a very crucial issue in physics in general as well as in a LPA.
+A reliable performance of the particle detector is a very crucial issue in a LPA because it ensures the correct determination of the bunch charge.
 Up to now a constant light yield factor (see Sec. \ref{Ac}) over time was assumed but never experimentally measured. 
-We have tested degeneration or artificial aging effects of the phosphor layer of the scintillation screens caused by the electron dose applied to the screens during a dedicated 'long term' run.
+We have tested degeneration or artificial aging effects of the phosphor layer of the scintillation screens caused by the electron dose applied to the screens during a dedicated long term run.
 The measurement parameters were chosen such that the behavior of those samples under LWFA--conditions, i.e. implemented in an electron spectrometer can be simulated as close as possible.
 Every second, the screen was irradiated by an electron bunch with a charge of \SI{100}{\pico\coulomb} for a measurement--time of \SI{90}{\minute}.
 The FWHM--bunch area was kept at \SI{6}{\square\milli\meter} to get realistic mean electron densities at the target on the order of \SI[per-mode=symbol]{9}{\pico\coulomb \per \square\milli\meter}. 
-Fig. \ref{fig:Dt_Min_rel} shows the relative fluorescence signal as a function of the applied cumulated electron dose. 
-A significant drop of $\approx\, 11\,\%$ in the emitted photon signal during a LWFA--relevant time interval can be observed.
-By comparing the decay speed to measurements in a former run, a correlation between the steepness of the exponential decay and the electron density at the target can be concluded.
-Thus a proper choice of the beam parameters is necessary to predict the 'Long term' performance in a LPA--environment.
+Fig. \ref{fig:Dt_Min_rel} shows the fluorescence signal as a function of the applied cumulated electron charge density over time. 
+A significant drop of $\approx\, 11\,\%$ in the emitted photon signal over time can be observed.
+By comparing the decay speed of several measurements, a correlation between the steepness of the exponential decay and the electron density at the target can be concluded.
+Thus a realistic choice of the beam parameters is necessary to study long term effects that can occur during a usage in LPA--experiments.
  
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Dt_Min_rel}% Here is how to import EPS art
@@ -308,13 +309,12 @@ The decay of the photon signal during this experiment was $~11\%$.}
 \end{figure}
 
 We have also seen a clear indication that the operation of a high repetition--rate wake--field accelerator equipped with a scintillator as the electron beam monitor probably will struggle with heat dissipation.
-The temporal evolution of the fluorescence efficiency during a different 'Long term' test than the above discussed one is plotted in Fig. \ref{fig:Damage}.
-In order to describe the behavior it is useful to divide the graph into three parts labeled with the according number. 
-First, the scintillator is working and shows its characteristic decay. 
+The temporal evolution of the fluorescence efficiency during a different long term test than the above discussed one is plotted in Fig. \ref{fig:Damage}.
+In order to describe the behavior, we divide the graph into three parts labeled with the according number. 
+First, the scintillator shows its characteristic decay. 
 A representative beam profile for a shot at \SI[per-mode=symbol]{50}{\nano\coulomb \per \milli\meter\square}  supports this behavior.
-At a certain point (labeled with 2), the thermal load induced by the impinging electrons becomes to high and the screen 'fires up' in a bright spot with a hole in its center.
-Afterwards the screen is permanently damaged and much darker than before.
-We have cross--checked the BPM--logfiles from the ELBE--LINAC in order to distinguish the intrinsic photon peak from a charge spike emitted by the cavity of the LINAC.
+At a certain point (labeled with 2), the thermal load induced by the impinging electrons becomes to high and the screen shows a very bright spot with a hole in its center.
+Afterwards the screen is permanently damaged and approximately three times darker than before.
 Thus, we assume that this effect is induced by the thermal load of the electron energy since the heat energy in vacuum can only be transferred to the environment by infra--red emission of radiation.
 
 \begin{figure}
