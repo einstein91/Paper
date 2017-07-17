@@ -95,7 +95,7 @@ The calibration was designed to investigate the light/charge--conversion and sat
 In order to reach the necessary electron fluence, the screens were excited by a focused electron beam, generating high peak charge density up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} delivered from the ELBE linear accelerator at the Helmholtz Center in Dresden--Rossendorf. 
 A three orders of magnitude linearity in light yield to charge conversion was found followed by a saturation area starting in the range of \si[per-mode=symbol]{\nano \coulomb \per \square \milli\meter}.
 Furthermore for a specific type of scintillator long--term stability test were done. 
-A significant decrease of the scintillation efficiency within LWFA--relevant conditions was found.    
+A significant decrease of the scintillation efficiency with conditions comparable to a LPA--experiment was found.    
 Also included is a description for a new type of reference light source performing the screen cross--calibration. 
 
 \begin{description}
@@ -127,24 +127,28 @@ Since these three decades the laser technology improved a lot and state of the a
 The main advantage of this new type of accelerator is a reduction of costs and size thanks to strong field gradients of \SI[per-mode=symbol]{100}{\giga\electronvolt\per\metre}\myCite{Esarey2009,Hooker2013}. 
 Furthermore the combination of ultra--short bunch duration and a significant bunch charge can lead to peak currents in the \si{\kilo\ampere}--range[Jurjen paper]. 
 Therefore LPA's are a very promising candidate to drive next-generation light sources such as $\upgamma$--ray sources\myCite{Sarri2014, TaPhuoc2012} and compact X--Ray free electron lasers\myCite{Schlenvoigt2008, Fuchs2009, Albert2014}.
- 
-In order to evaluate the quality of the accelerated electron--bunch, a well suited detector is needed. 
-Classification parameters are the charge in the peak of the electron spectrum and the energy distribution of the electrons as well as the transverse emittance of the electron beam. 
-Despite the capability of supporting an ultra--high acceleration gradient in the range of \si{\giga\electronvolt\per\centi\metre}, a laser electron accelerator often suffers from shot--to--shot instabilities in bunch charge, energy and divergence as well as a percent--level energy spread. 
-Taking into account these constraints, energy--independent charge diagnostics such as Faraday cups and integrating current transformers (ICT) aren't reasonable candidates, because the charge stored in the low--energy section of the energy spectrum can exceed the charge in the peak of the distribution. 
-Other diagnostics with high sensitivity, good energy resolution and a high dynamic range such as imaging plates\myCite{Tanaka2005,Masuda2008,Zeil2010,Bonnet2013} suffer from a very long read--out time which prevents an usage in an experiment with almost Hz repetition rate.
-Therefore a suitable setup for the beam diagnostic of a laser wake--field accelerator consists of a beam pointing monitor (BPM) and a electron energy spectrometer (ESM). 
+
+In contrast to conventional accelerators, laser plasma accelerators are still a developing field because they suffer from shot-–to-–shot
+instabilities in bunch charge, energy and divergence as well as a percent–-level energy spread. 
+In order to further improve the quality of the accelerated electron beam  the quality of the accelerated electron--bunch, a well suited detector is needed. 
+The diagnostic has to be able to show the charge in the peak of the electron spectrum and the energy distribution for a broad energy range as well as the energy--dependent divergence of the electron beam for every single shot. 
+
+Taking into account these constraints, energy--independent charge diagnostics such as Faraday cups and integrating current transformers (ICT) aren't reasonable candidates, as they are not capable of delivering the required energy--resolved charge information.
+Thus a suitable setup for the beam diagnostic of a laser wake--field accelerator consists of a beam pointing monitor (BPM) and a electron energy spectrometer (ESM). 
 The pointing monitor is usually implemented by a scintillation screen which is optically imaged to a CCD--camera. 
+The scintillation screen is basically a \SIrange{10}{100}{\micro\meter}--thick layer of powdered rare earth phosphor (Gd2O2S:TB), that converts the electron energy into photons with a sharp peak in the visible (green) wavelength range.
+The relaxation process is dominated by fluorescence and has a life--time of approximately \SI{1}{\milli\second}.
 The spectrometer utilizes a permanent magnet to convert the energy of the electrons into position at the exit of the magnet along the dispersive axis. 
 Hence another scintillation screen connected to a camera system is used to visualize the spatial distribution of the electrons.
 Typically it covers an area in the order of hundreds of \si{\centi\metre^2} in order to detect a relevant interval of the electron spectrum ranging from \SIrange{5}{1000}{\mega\electronvolt}. 
-This optical detection system is able to display the electron bunch charge with respect to the kinetic energy of the electrons \si[per-mode=symbol]{dQ\per dE} without being distorted by the presence of strong electromagnetic--pulses. 
-Additionally pile--up effects can be neglected due to \si{\milli\second} dead--time of the scintillator.
-Once it is carefully shielded from the laser light, this technique can be used to measure the electron bunch charge in the LPA--framework. 
+This optical detection system is able to display the electron bunch charge with respect to the electron energy \si[per-mode=symbol]{dQ\per dE} without being distorted by the presence of strong electromagnetic--pulses. 
+Due to the short life--time of the excited state of the scintillator it can be used a single shot diagnostic because the fluorescence signal has completely decayed between two shots at 1 Hz repetition--rate. 
+Other diagnostics with high sensitivity, good energy resolution and a high dynamic range such as imaging plates\myCite{Tanaka2005,Masuda2008,Zeil2010,Bonnet2013} suffer from a very long read--out time which prevents an usage in an experiment with almost Hz repetition rate.
+Once it is carefully shielded from the laser light, this diagnostic can be used to measure the electron bunch charge as well as the energy spectrum in the LPA--framework. 
 A priori the electron--photon conversion efficiency of these scintillation screens is unknown, therefore a calibration--campaign is required.
 
-This work uses the results obtained in former calibration runs\myCite{Glinec2006,Nakamura2011} to excite the scintillators with \SI{23}{\mega\electronvolt} whereas the interesting part of the electron spectrum in a LWFA--experiment is above \SI{100}{\mega\electronvolt}.
-Compared to the work of Buck et al.\myCite{Buck2010} we demonstrate the absolute charge calibration in vacuum and with the presence of much less X--Ray thanks to an improved setup (see Sec. \ref{Set}).
+In this work we demonstrate the absolute charge calibration with a pencil--beam in vacuum conditions.
+This has the advantage compared to a former absolute calibration because the signal--to--noise ratio with the presence of much less X--Ray thanks to an improved setup (see Sec. \ref{Set}).
 The results of the absolute fluorescence efficiency measurement are presented in Sec. \ref{Ac}.
 Additionally we present a new type of constant light source to perform the screen cross--calibration which has much less systematic drop in its absolute luminosity (see Sec. \ref{Cc}).
 In Sec. \ref{Se} the non--linear behavior of the scintillator's photon response is presented.
@@ -226,11 +230,6 @@ The curves show a linear behavior until an upper boundary caused by saturation a
 In order to determine the calibration value for the absolute response of the different scintillator, a linear fit has been applied to all datapoints within the linear region.
 The resulting calibration values are shown in TABLE \ref{table:res}. 
 The error of the values was determined using the method of Gaussian error propagation.
-
-For selected screens such as Kodak BioMAX MS, the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
-A consistent difference of approximately factor two higher fluorescence efficiency is found.
-To our experience this discrepancy cannot be explained by any differences in the experimental setup as well as the target properties i.e. aging effects.
-However a calculation from values published by Glinec et al.\myCite{Glinec2006} leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
    
 \begin{figure*}
 \includegraphics[width=\textwidth]{./Figures/Absolute}% Here is how to import EPS art
@@ -325,14 +324,15 @@ After applying a cumulative dose of $\approx$ \SI[per-mode=symbol]{52}{\nano\cou
 Due to a lack of heat dissipation in vacuum a the behavior can be explained by thermal melting in the active layer of the scintillator.}
 \end{figure}
 
-\section{\label{Cn} Conclusion}
+\section{\label{Cn} DISCUSSION}
 This work investigates the absolute fluorescence efficiency for various scintillation screens under vacuum conditions.
-Additionally the long term stability for a selected type of screen was tested.
-To our knowledge this has never been performed before.
-Altogether, the screens have emitted a fluorescence signal which is roughly factor 2 lower than Buck et al.\myCite{Buck2010} have reported.
-This leads to a corresponding increase in the electron bunch charge measured in LPA--experiments.
-Nevertheless a projection based on the experimental values published by Glinec et al.\myCite{Glinec2006} confirms our measurement very well.
+For selected screens such as Kodak BioMAX MS, the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
+A consistent difference of approximately factor two higher fluorescence efficiency is found.
+To our experience this discrepancy cannot be explained by any differences in the experimental setup as well as the target properties i.e. aging effects.
+Nevertheless a calculation based on the experimental values published by Glinec et al.\myCite{Glinec2006} leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
 
+Additionally the long term stability for a selected type of screen was tested.
+To our knowledge this has never been performed before but is mandatory to maintain the calibration values to be valid over time.
 Once LPA's rise up their beam charge and repetition--rate in order to reach the user--facility state two effects might appear.
 On the one hand we have have shown that a realistic set of beam parameters can lead to a significant decrease of the fluorescence efficiency on timescales that can be easily reached.
 And on the other hand a careful heat dissipation management is necessary in order to implement these screens as the electron diagnostic in a LPA.
