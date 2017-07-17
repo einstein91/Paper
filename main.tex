@@ -226,11 +226,6 @@ The curves show a linear behavior until an upper boundary caused by saturation a
 In order to determine the calibration value for the absolute response of the different scintillator, a linear fit has been applied to all datapoints within the linear region.
 The resulting calibration values are shown in TABLE \ref{table:res}. 
 The error of the values was determined using the method of Gaussian error propagation.
-
-For selected screens such as Kodak BioMAX MS, the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
-A consistent difference of approximately factor two higher fluorescence efficiency is found.
-To our experience this discrepancy cannot be explained by any differences in the experimental setup as well as the target properties i.e. aging effects.
-However a calculation from values published by Glinec et al.\myCite{Glinec2006} leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
    
 \begin{figure*}
 \includegraphics[width=\textwidth]{./Figures/Absolute}% Here is how to import EPS art
@@ -327,12 +322,13 @@ Due to a lack of heat dissipation in vacuum a the behavior can be explained by t
 
 \section{\label{Cn} Conclusion}
 This work investigates the absolute fluorescence efficiency for various scintillation screens under vacuum conditions.
-Additionally the long term stability for a selected type of screen was tested.
-To our knowledge this has never been performed before.
-Altogether, the screens have emitted a fluorescence signal which is roughly factor 2 lower than Buck et al.\myCite{Buck2010} have reported.
-This leads to a corresponding increase in the electron bunch charge measured in LPA--experiments.
-Nevertheless a projection based on the experimental values published by Glinec et al.\myCite{Glinec2006} confirms our measurement very well.
+For selected screens such as Kodak BioMAX MS, the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
+A consistent difference of approximately factor two higher fluorescence efficiency is found.
+To our experience this discrepancy cannot be explained by any differences in the experimental setup as well as the target properties i.e. aging effects.
+Nevertheless a calculation based on the experimental values published by Glinec et al.\myCite{Glinec2006} leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
 
+Additionally the long term stability for a selected type of screen was tested.
+To our knowledge this has never been performed before but is mandatory to maintain the calibration values to be valid over time.
 Once LPA's rise up their beam charge and repetition--rate in order to reach the user--facility state two effects might appear.
 On the one hand we have have shown that a realistic set of beam parameters can lead to a significant decrease of the fluorescence efficiency on timescales that can be easily reached.
 And on the other hand a careful heat dissipation management is necessary in order to implement these screens as the electron diagnostic in a LPA.
