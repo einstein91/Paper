@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.15)  17 JUL 2017 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.15)  17 JUL 2017 22:26
 entering extended mode
 **./main.tex
 (main.tex
@@ -1060,12 +1060,12 @@ File: ./Figures/Damage.eps Graphic file (type eps)
  <./Figures/Damage.eps> [12] [13] (main.bbl [14]
 [15]) [16] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 14586 strings out of 493329
- 278754 string characters out of 3129665
+ 14585 strings out of 493329
+ 278743 string characters out of 3129665
  313052 words of memory out of 3000000
- 17976 multiletter control sequences out of 15000+200000
+ 17975 multiletter control sequences out of 15000+200000
  26546 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,16n,37p,10377b,1061s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.dvi (16 pages, 46480 bytes).
+Output written on main.dvi (16 pages, 46576 bytes).
