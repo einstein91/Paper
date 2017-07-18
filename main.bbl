@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{25}%
+\begin{thebibliography}{24}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -417,41 +417,6 @@
   10.1063/1.4775719} {\bibfield  {journal} {\bibinfo  {journal} {Rev. Sci.
   Instrum.}\ }\textbf {\bibinfo {volume} {84}} (\bibinfo {year} {2013}),\
   10.1063/1.4775719}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Glinec}\ \emph {et~al.}(2006)\citenamefont {Glinec},
-  \citenamefont {Faure}, \citenamefont {Guemnie-Tafo}, \citenamefont {Monard},
-  \citenamefont {Larbre}, \citenamefont {{De Waele}}, \citenamefont
-  {Marignier}, \citenamefont {Mostafavi}, \citenamefont {Malka},\ and\
-  \citenamefont {Monard}}]{Glinec2006}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Glinec}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Faure}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Guemnie-Tafo}}, \bibinfo
-  {author} {\bibfnamefont {V.~M.}\ \bibnamefont {Monard}}, \bibinfo {author}
-  {\bibfnamefont {J.~P.}\ \bibnamefont {Larbre}}, \bibinfo {author}
-  {\bibfnamefont {V.}~\bibnamefont {{De Waele}}}, \bibinfo {author}
-  {\bibfnamefont {J.~L.}\ \bibnamefont {Marignier}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Mostafavi}}, \bibinfo {author}
-  {\bibfnamefont {V.}~\bibnamefont {Malka}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {H.}~\bibnamefont {Monard}},\ }\href {\doibase
-  10.1063/RevSciInstrum1.2360988} {\bibfield  {journal} {\bibinfo  {journal}
-  {Rev. Sci. Instrum.}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages}
-  {103301} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nakamura}\ \emph {et~al.}(2011)\citenamefont
-  {Nakamura}, \citenamefont {Gonsalves}, \citenamefont {Lin}, \citenamefont
-  {Smith}, \citenamefont {Rodgers}, \citenamefont {Donahue}, \citenamefont
-  {Byrne},\ and\ \citenamefont {Leemans}}]{Nakamura2011}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Nakamura}}, \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
-  {Gonsalves}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Lin}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Smith}}, \bibinfo
-  {author} {\bibfnamefont {D.}~\bibnamefont {Rodgers}}, \bibinfo {author}
-  {\bibfnamefont {R.}~\bibnamefont {Donahue}}, \bibinfo {author} {\bibfnamefont
-  {W.}~\bibnamefont {Byrne}}, \ and\ \bibinfo {author} {\bibfnamefont {W.~P.}\
-  \bibnamefont {Leemans}},\ }\href {\doibase 10.1103/PhysRevSTAB.14.062801}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Accel. Beams}\
-  }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {062801} (\bibinfo
-  {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Buck}\ \emph {et~al.}(2010)\citenamefont {Buck},
   \citenamefont {Zeil}, \citenamefont {Popp}, \citenamefont {Schmid},
   \citenamefont {Jochmann}, \citenamefont {Kraft}, \citenamefont {Hidding},
@@ -516,6 +481,25 @@
   {journal} {\bibinfo  {journal} {Rev. Sci. Instrum.}\ }\textbf {\bibinfo
   {volume} {78}},\ \bibinfo {pages} {083301} (\bibinfo {year}
   {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Glinec}\ \emph {et~al.}(2006)\citenamefont {Glinec},
+  \citenamefont {Faure}, \citenamefont {Guemnie-Tafo}, \citenamefont {Monard},
+  \citenamefont {Larbre}, \citenamefont {{De Waele}}, \citenamefont
+  {Marignier}, \citenamefont {Mostafavi}, \citenamefont {Malka},\ and\
+  \citenamefont {Monard}}]{Glinec2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Glinec}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Faure}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Guemnie-Tafo}}, \bibinfo
+  {author} {\bibfnamefont {V.~M.}\ \bibnamefont {Monard}}, \bibinfo {author}
+  {\bibfnamefont {J.~P.}\ \bibnamefont {Larbre}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {{De Waele}}}, \bibinfo {author}
+  {\bibfnamefont {J.~L.}\ \bibnamefont {Marignier}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Mostafavi}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Malka}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Monard}},\ }\href {\doibase
+  10.1063/RevSciInstrum1.2360988} {\bibfield  {journal} {\bibinfo  {journal}
+  {Rev. Sci. Instrum.}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages}
+  {103301} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Giakoumakis}\ and\ \citenamefont
   {Miliotis}(1985)}]{Giakoumakis1985}%
   \BibitemOpen

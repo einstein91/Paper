@@ -164,7 +164,6 @@ For generating higher charges, the accelerator changed into multiple bunch mode.
 This means the cavity emits a train of pulses that is tunable in its length.
 The temporal delay of the single bunches within this pulse--train is \SI{77}{\nano\second}. 
 All these short bunches add their charge onto the screens, due to the short delay compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
-
 The electron beam emitted by the LINAC is focused by magnetic quadrupoles to a focal spot.
 This leads to a FWHM--beam size of \SIrange{6}{7}{\milli\metre^2} at the target.
 This small spot size enabled us to reach charge densities up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} which are necessary to study saturation effects in the active layer of the scintillator.
@@ -314,7 +313,7 @@ First, the scintillator shows its characteristic decay.
 A representative beam profile for a shot at \SI[per-mode=symbol]{50}{\nano\coulomb \per \milli\meter\square}  supports this behavior.
 At a certain point (labeled with 2), the thermal load induced by the impinging electrons becomes to high and the screen shows a very bright spot with a hole in its center.
 Afterwards the screen is permanently damaged and approximately three times darker than before.
-Thus, we assume that this effect is induced by the thermal load of the electron energy since the heat energy in vacuum can only be transferred to the environment by infra--red emission of radiation.
+This is a clear indication that this effect is induced by the thermal load of the electron energy since the heat energy in vacuum can only be transferred to the environment by infra--red emission of radiation.
 
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Damage}% Here is how to import EPS art
@@ -325,12 +324,18 @@ Due to a lack of heat dissipation in vacuum a the behavior can be explained by t
 \end{figure}
 
 \section{\label{Cn} DISCUSSION}
-This work investigates the absolute fluorescence efficiency for various scintillation screens under vacuum conditions.
-For selected screens such as Kodak BioMAX MS, the calibration values can be compared to those reported in Ref. \myOnlineCite{Buck2010}.
-A consistent difference of approximately factor two higher fluorescence efficiency is found.
-To our experience this discrepancy cannot be explained by any differences in the experimental setup as well as the target properties i.e. aging effects.
-Furthermore we made a calculation based on the experimental values published by Glinec et al.\myCite{Glinec2006}. 
-This leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
+This work is designed to investigate the absolute photon response and the linear regime of various scintillation screens that are used as electron diagnostic in the LPA--framework.
+In addition to the work of Buck et al.\myCite{Buck2010} that is commonly considered as the reference, we performed an extended calibration campaign with some clear advantages.
+First of all the calibration of the screens take place in vacuum.
+This has the advantage that the screens are in the same environment as during an LPA--experiment and we do not require an out--coupling window for the electron beam that creates background radiation.
+Together with a spotsize of \SI{6}{\milli\meter} that calibration is very close to LPA--conditions and we are able to increase the charge density such that saturation is clearly visible.
+Additionally we tilted the screen by \SI{22}{\degree} to bring the folding mirror out of the beam axis to OTR background on the CCD--chip.
+Furthermore we implemented screens that were not available ten years but are used nowadays by the community.
+When comparing the results to those reported in Ref. \myOnlineCite{Buck2010}, we observe discrepancies.
+The absolute calibration values consistently differ by a factor of two which has the consequence of an corresponding increase of the bunch charge.   
+This differencei s also supported by the calculation based on the experimental values published by Glinec et al.\myCite{Glinec2006}. 
+It leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
+Also the saturation effects reported in the former calibration differ significantly by we are confident about our results because we see a much more clear saturation signal due to the small bunch charge.
 
 Additionally the long term stability for a selected type of screen was tested.
 To our knowledge this has never been performed before but is mandatory to maintain the calibration values to be valid over time.
