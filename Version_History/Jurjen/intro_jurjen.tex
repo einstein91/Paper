@@ -23,6 +23,8 @@ floatfix,
 \usepackage[mathlines]{lineno}% Enable numbering of text and display math
 %linenumbers\relax % Commence numbering lines
 
+\usepackage{ulem} % for correction
+
 %% OWN Commands
 \newcommand{\myCite}[1]{\textcolor{blue}{\cite{#1}}}
 \newcommand{\myOnlineCite}[1]{\textcolor{blue}{\onlinecite{#1}}}
@@ -121,36 +123,57 @@ use the optional argument of the \verb+\item+ command to give the category of ea
 %%%%%%%%%%%%%%%%%%%%%%%
 
 \section{\label{Mot} Introduction}
+Since their theoretically predication in 1979 by Tajima and Dawson\myCite{Tajima1979}, laser-plasma wakefield accelerators (LWFA) have seem tremendous progress. These accelerators can operate with accelerating gradients of up to several hundreds of GeV m$^{-1}$, three to four orders of magnitude higher than in conventional accelerators.  Recent advancement in both the understanding of the acceleration mechanism as well as development of state of art laser--systems, which are now able to operate in the petawatt--regime\myCite{Schramm2017, Gaul2010}, make it possible to accelerate quasi--monoenergetic\myCite{Geddes2004, Faure2004, Mangles2004} electron bunches containing charges of several hundred \si{\pico\coulomb} to energies in the \si{\giga\electronvolt}--range\myCite{Leemans2014, Schroeder2007, Wang2013}.
+Providing ultra--short bunch lengths of only a few femtoseconds, these accelerators can deliver several tens of kA peak-current \myCite{Couperus2017, Li2017} making them them ideal drivers for next-generation compact light-sources covering high-field THz\cite{Leemans2003,Green2016}, high-brightness X-ray\cite{Jochmann2013,Powers2014} and $\gamma$-ray\cite{Phuoc2012,Sarri2014} sources, compact FELs\cite{Schlenvoigt2007,Fuchs2009,Maier2012,Huang2012,Steiniger2014} and laboratory-size beam-driven plasma accelerators\cite{DelaOssa2013,DeLaOssa2015}.
 
-Since their theoretically predication in 1979 by Tajima and Dawson\myCite{Tajima1979}, laser-plasma wakefield accelerators (LWFA) have seen tremendous progress. 
-These accelerators can operate with accelerating gradients of up to several hundreds of \si{\giga\electronvolt\per\meter}, three to four orders of magnitude higher than in conventional accelerators.  
-Recent advancement in both the understanding of the acceleration mechanism as well as development of state of art laser--systems, which are now able to operate in the petawatt--regime\myCite{Schramm2017, Gaul2010}, make it possible to accelerate quasi--monoenergetic\myCite{Geddes2004, Faure2004, Mangles2004} electron bunches containing charges of several hundred \si{\pico\coulomb} to energies in the \si{\giga\electronvolt}--range\myCite{Leemans2014, Schroeder2007, Wang2013}.
-Providing ultra--short bunch lengths of only a few femtoseconds, these accelerators can deliver several tens of kA peak-current \myCite{Couperus2017, Li2017} making them them ideal drivers for next-generation compact light-sources covering high-field THz\myCite{Leemans2003,Green2016}, high-brightness X-ray\myCite{Jochmann2013,Powers2014} and $\upgamma$--ray\myCite{Phuoc2012,Sarri2014} sources, compact FELs\myCite{Schlenvoigt2007,Fuchs2009,Maier2012,Huang2012,Steiniger2014} and laboratory-size beam-driven plasma accelerators\myCite{DelaOssa2013,DeLaOssa2015}.
+However, laser plasma accelerators (LPAs) are still a developing field. Compared to conventional accelerators many challenges remain, both in beam quality as well as in shot-to-shot stability.
+In order to further improve the performance of LPAs it is necessary to understand the accelerator dynamics and to be able to resolve shot-to-shot fluctuations. Therefore, a well suited single-shot electron diagnostic is required which resolves charge, energy and divergence over a large parameter range. 
 
-However, laser plasma accelerators (LPAs) are still a developing field. 
-Compared to conventional accelerators many challenges remain, both in beam quality as well as in shot-to-shot stability.
-In order to further improve the performance of LPAs, it is necessary to understand the accelerator dynamics and to be able to resolve shot-to-shot fluctuations. 
-Therefore, a well suited single-shot electron diagnostic is required which resolves charge, energy and divergence over a large parameter range. 
-
-Typically a combination of a broad energy-range dipole magnet, which maps electron energy to position in the dispersive plane, is used in combination with a scintillation screen imaged onto a camera for charge diagnostic. 
-This screen generally covers an area in the order of hundreds of \si{\centi\metre^2} in order to cover the relevant parameter range. 
+Typically a combination of a broad energy-range dipole magnet, which maps electron energy to position in the dispersive plane, is used in combination with a scintillation screen imaged onto a camera for charge diagnostic. This screen generally covers an area in the order of hundreds of \si{\centi\metre^2} in order to cover the relevant parameter range. 
 Established techniques at conventional accelerators such as Faraday cups and integrating current transformers (ICT) aren't reasonable alternatives, as they are not capable of delivering the required energy--resolved charge information.
 
-These scintillation screens consist of a \SIrange{10}{100}{\micro\meter}--thick layer of powdered rare earth phosphor (Gd2O2S:TB), that converts the electron energy into visible light. 
-The process is dominated by fluorescence and has a life--time of approximately \SI{1}{\milli\second}. 
-This short life-time enables single shot diagnostic at relevant LPA repetition rates (up to 10 Hz). 
-In contrast, imaging plates, which deliver good energy resolution and a high dynamic range\myCite{Tanaka2005,Masuda2008,Zeil2010,Bonnet2013}, suffer from a long read-out time.
-Scintillating screens are commercially available, often under the trade name LANEX, and marketed for X-ray detection. 
-Generally no electron--photon conversion efficiency is specified and careful calibration is required before application.
+These scintillation screens consist of a \SIrange{10}{100}{\micro\meter}--thick layer of powdered rare earth phosphor (Gd2O2S:TB), that converts the electron energy into visible light. The process is dominated by fluorescence and has a life--time of approximately \SI{1}{\milli\second}. This short life-time enables single shot diagnostic at relevant LPA repetition rates (up to 10 Hz). In contrast, imaging plates, which deliver good energy resolution and a high dynamic range\myCite{Tanaka2005,Masuda2008,Zeil2010,Bonnet2013}, suffer from a long read-out time.
+Scintillating screens are commercially available, often under the trade name LANEX, and marketed for X-ray detection. Generally no electron--photon conversion efficiency is specified and careful calibration is required before application.
 
-In this work we report on the absolute charge calibration of several commercially available scintillating screens. 
-These calibrations are performed under conditions close to those found in LWFA experiments, providing a significant improvement over previous reported calibration values by Buck et al.\myCite{Buck2010}.
-Additionally we report on several other relevant effects. 
-In section \ref{Se} the non--linear response of the scintillator at high electron flux is presented. 
-Crucial information on the long term stability and damage resistivity of the screens are reported in section \ref{Ls}.
+In this work we report on the absolute charge calibration of several commercially available scintillating screens. These calibrations are performed under conditions close to those found in LWFA experiments, providing a significant improvement over previous reported calibration values by Buck et al.\myCite{Buck2010}.
+Additionally we report on several other relevant effects. In section \ref{Se} the non--linear response of the scintillator at high electron flux is presented. Crucial information on the long term stability and damage resistivity of the screens are reported in section \ref{Ls}.
 
-The insights found in this work will have a significant impact on the application of scintillating screens as a charge diagnostic at LPAs. 
-The absolute calibration presented here has significant improvements compared to previous work and  will act as a new standard in the field.  
+The insights found in this work will have a significant impact on the application of scintillating screens as a charge diagnostic at LPAs. The absolute calibration presented here has significant improvements compared to previous work and  will act as a new standard in the field.  
+
+
+\section{\label{Mot} Introduction}
+In 1979 by Tajima and Dawson described the theoretical basics for laser--plasma experiments\myCite{Tajima1979}.
+Since these three decades the laser technology improved a lot and state of the art laser--systems are able to operate in the petawatt--regime\myCite{Gaul2010}, making it possible to accelerate quasi--monoenergetic\myCite{Geddes2004, Faure2004, Mangles2004} electron bunches containing charges of several hundred \si{\pico\coulomb} to energies in the \si{\giga\electronvolt}--level\myCite{Leemans2014, Schroeder2007, Wang2013}.
+The main advantage of this new type of accelerator is a reduction of costs and size thanks to strong field gradients of \SI[per-mode=symbol]{100}{\giga\electronvolt\per\metre}\myCite{Esarey2009,Hooker2013}. 
+Furthermore the combination of ultra--short bunch duration and a significant bunch charge can lead to peak currents in the \si{\kilo\ampere}--range[Jurjen paper]. 
+Therefore LPA's are a very promising candidate to drive next-generation light sources such as $\upgamma$--ray sources\myCite{Sarri2014, TaPhuoc2012} and compact X--Ray free electron lasers\myCite{Schlenvoigt2008, Fuchs2009, Albert2014}.
+
+In contrast to conventional accelerators, laser plasma accelerators are still a developing field because they suffer from shot-–to-–shot
+instabilities in bunch charge, energy and divergence as well as a percent–-level energy spread. 
+In order to further improve the quality of the accelerated electron beam  the quality of the accelerated electron--bunch, a well suited detector is needed. 
+The diagnostic has to be able to show the charge in the peak of the electron spectrum and the energy distribution for a broad energy range as well as the energy--dependent divergence of the electron beam for every single shot. 
+
+Taking into account these constraints, energy--independent charge diagnostics such as Faraday cups and integrating current transformers (ICT) aren't reasonable candidates, as they are not capable of delivering the required energy--resolved charge information.
+Thus a suitable setup for the beam diagnostic of a laser wake--field accelerator consists of a beam pointing monitor (BPM) and a electron energy spectrometer (ESM). 
+The pointing monitor is usually implemented by a scintillation screen which is optically imaged to a CCD--camera. 
+The scintillation screen is basically a \SIrange{10}{100}{\micro\meter}--thick layer of powdered rare earth phosphor (Gd2O2S:TB), that converts the electron energy into photons with a sharp peak in the visible (green) wavelength range.
+The relaxation process is dominated by fluorescence and has a life--time of approximately \SI{1}{\milli\second}.
+The spectrometer utilizes a permanent magnet to convert the energy of the electrons into position at the exit of the magnet along the dispersive axis. 
+Hence another scintillation screen connected to a camera system is used to visualize the spatial distribution of the electrons.
+Typically it covers an area in the order of hundreds of \si{\centi\metre^2} in order to detect a relevant interval of the electron spectrum ranging from \SIrange{5}{1000}{\mega\electronvolt}. 
+This optical detection system is able to display the electron bunch charge with respect to the electron energy \si[per-mode=symbol]{dQ\per dE} without being distorted by the presence of strong electromagnetic--pulses. 
+Due to the short life--time of the excited state of the scintillator it can be used a single shot diagnostic because the fluorescence signal has completely decayed between two shots at 1 Hz repetition--rate. 
+Other diagnostics with high sensitivity, good energy resolution and a high dynamic range such as imaging plates\myCite{Tanaka2005,Masuda2008,Zeil2010,Bonnet2013} suffer from a very long read--out time which prevents an usage in an experiment with almost Hz repetition rate.
+Once it is carefully shielded from the laser light, this diagnostic can be used to measure the electron bunch charge as well as the energy spectrum in the LPA--framework. 
+A priori the electron--photon conversion efficiency of these scintillation screens is unknown, therefore a calibration--campaign is required.
+
+In this work we demonstrate the absolute charge calibration with a pencil--beam in vacuum conditions.
+This has the clear advantage compared to a former absolute calibration\myCite{Buck2010} that potential background sources that can add up to the scintillation signal vanish (see Sec. \ref{Set}).
+The results of the absolute fluorescence efficiency measurement are presented in Sec. \ref{Ac}.
+Additionally we present a new type of constant light source to perform the screen cross--calibration which has much less systematic drop in its absolute luminosity (see Sec. \ref{Cc}).
+In Sec. \ref{Se} the non--linear behavior of the scintillator's photon response is presented.
+Crucial information about the long term stability of the screens are shown in Sec. \ref{Ls}. 
+The results are finally discussed in Sec. \ref{Cn}.
 
 \section{\label{Set} Experimental setup}
 \externaldocument{Screen_data}
@@ -181,21 +204,7 @@ Thus the filters were calibrated precisely using a well--calibrated photo--spect
 Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics ) is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources.
 The fiber is placed on a linear motor to switch quickly between calibration and spectrum measurements. 
  
-\begin{figure}
-\includegraphics[width=8.5cm]{./Figures/Setup_V2}% Here is how to import EPS art
-\caption{\label{fig:Setup}Setup for absolute charge calibration of scintillation screens: ICT measures the charge of the electron beam. 
-Six different screens with an angle of $22\degree$ relative to the incoming electron beam are mounted on a filter wheel and imaged via a silver mirror onto a CCD--chip.
-In order to generate the desired dynamic range a set of ND--filters were placed in front of the camera.}
-\end{figure}
-\begin{figure}
-\includegraphics[width=8.5cm]{./Figures/electron_bunch}% Here is how to import EPS art
-\caption{\label{fig:electron_bunch}
-Image of electron bunch recorded by CCD–sensor. 
-The rectangle marks the region of interest (ROI) only this area was used for the analysis. 
-The two curves indicate the line–-out of the electron bunch through its peak in
-horizontal and vertical dimension. 
-The area of the bunch at FWHM is $\approx$ \SI{6}{\square\milli\meter}.}
-\end{figure}
+
 
 \section{\label{Res} Results}
 \subsection{\label{Ac} Absolute charge calibration}
@@ -219,7 +228,6 @@ For completeness, $\upbeta$ can be disassembled in its individual parts.
 The transmission of the off-axis mirror at the specific wavelength is \SI[separate-uncertainty = true]{97(1)}{\%}, the window of the vacuum--chamber transmits \SI[separate-uncertainty = true]{91.3(5)}{\%} of the incoming light and the objective images \num[separate-uncertainty = true]{88(1)} out of 100 impinging photons on the the chip.
 Furthermore the photon--to--count conversion efficiency of \SI[separate-uncertainty = true]{32.8(17)}{\%} of the CCD--chip (Sony ICX445) and its associated readout-electronics have been determined precisely using well--calibrated ND--filters to adapt the photon flux from a green laser.  
 
-\input{./Tables/Screen_data}
 
 The response functions for the different screens are shown in Fig. \ref{fig:Calib}.
 The curves show a linear behavior until an upper boundary caused by saturation and degeneration effects (Sec. \ref{Se},\ref{Ls}).  
@@ -227,15 +235,7 @@ In order to determine the calibration value for the absolute response of the dif
 The resulting calibration values are shown in TABLE \ref{table:res}. 
 The error of the values was determined using the method of Gaussian error propagation.
    
-\begin{figure*}
-\includegraphics[width=\textwidth]{./Figures/Absolute}% Here is how to import EPS art
-\caption{\label{fig:Calib}(Color) Absolute charge calibration of six different scintillation screens.
-The linearity hypothesis is valid up to a certain charge density threshold. Beyond this nonlinear saturation effects start to dominate the photon response.
-'\textit{Buck et al.}' indicates a calibration curve for '\textit{Kodak Lanex Fine}' from a former experiment \cite{Buck2010} (blue dotted line).
-Additionally two reference data points for '\textit{Kodak Lanex Fine}' are included. 
-The red circle is determined by a calculation from a MC--Simulation reported in Glinec et al. \cite{Glinec2006} and also referenced in the publication of Buck et al. 
-However, the red square supporting our values was deduced from the full set of experimental results given by Glinec et al.. }
-\end{figure*}
+
 
 \subsubsection{\label{Cc}Cross--calibration} 
 In order to simplify the determination of the charge in a laser--plasma experiment based on the result of this calibration experiment, additionally reference light sources were recorded by the CCD–-camera. 
@@ -261,13 +261,7 @@ Birk’s law is used to fit the response curve of the scintillator:
 \end{equation}
 where the fit parameter B is called Birk's constant.
 $\uprho_{\text{ICT}}$ indicates the charge density in the peak of the electron bunch recorded by the ICT, whereas $\uprho_{\text{scint}}$ defines the charge detected by the scintillator.
-\begin{figure}
-\includegraphics[width=8.5cm]{./Figures/Sat}% Here is how to import EPS art
-\caption{\label{fig:Sat} Typical response function of Kodak Biomax MS: The peak charge density emitted by the screen vs. the peak charge density calculated with respect to the ICT data. 
-The bunch profile shows a significant saturation towards higher charges. 
-The measured data is fitted with Birk's law of saturation (red line, see eq.\ref{eq:birk}). 
-The black dotted line indicates $\uprho_{\text{Scint}} = \uprho_{\text{ICT}}$.}
-\end{figure}
+
 The saturation value $\uprho_{\text{sat}}$ is defined as the peak charge density, at which the scintillation signal has dropped down to 80$\%$ compared to the linear behavior.
 This arbitrary measure is chosen such that the saturation effect can be clearly distinguished from measurement uncertainties in the linear case. 
 Fig. \ref{fig:Sat} shows a saturated response of the scintillation peak signal with increasing electron peak charge density. 
@@ -294,14 +288,6 @@ Fig. \ref{fig:Dt_Min_rel} shows the fluorescence signal as a function of the app
 A significant drop of $\approx\, 11\,\%$ in the emitted photon signal over time can be observed.
 By comparing the decay speed of several measurements, a correlation between the steepness of the exponential decay and the electron density at the target can be concluded.
 Thus a realistic choice of the beam parameters is necessary to study long term effects that can occur during a usage in LPA--experiments.
- 
-\begin{figure}
-\includegraphics[width=8.5cm]{./Figures/Dt_Min_rel}% Here is how to import EPS art
-\caption{\label{fig:Dt_Min_rel} Long term performance test with Konica Minolta: 
-The screen was irradiated constantly for \SI{1.5}{\hour} with \SI{1}{\hertz} repetition rate, \SI{100}{\pico\coulomb} charge and a spot size of \SI{6}{\square\milli\meter} at FWHM. 
-The data was fitted with an exponential decay function. 
-The decay of the photon signal during this experiment was $~11\%$.}
-\end{figure}
 
 We have also seen a clear indication that the operation of a high repetition--rate wake--field accelerator equipped with a scintillator as the electron beam monitor probably will struggle with heat dissipation.
 The temporal evolution of the fluorescence efficiency during a different long term test than the above discussed one is plotted in Fig. \ref{fig:Damage}.
@@ -312,13 +298,7 @@ At a certain point (labeled with 2), the thermal load induced by the impinging e
 Afterwards the screen is permanently damaged and approximately three times darker than before.
 This is a clear indication that this effect is induced by the thermal load of the electron energy since the heat energy in vacuum can only be transferred to the environment by infra--red emission of radiation.
 
-\begin{figure}
-\includegraphics[width=8.5cm]{./Figures/Damage}% Here is how to import EPS art
-\caption{\label{fig:Damage} Damage of Konica Minolta during long term test: 
-The data was taken at a different run than presented in Fig. \ref{fig:Dt_Min_rel}. 
-After applying a cumulative dose of $\approx$ \SI[per-mode=symbol]{52}{\nano\coulomb \per \milli\meter\square} the screen exhibits a bright peak and is permanently damaged afterwards. 
-Due to a lack of heat dissipation in vacuum a the behavior can be explained by thermal melting in the active layer of the scintillator.}
-\end{figure}
+
 
 \section{\label{Cn} DISCUSSION}
 This work is designed to investigate the absolute photon response and the linear regime of various scintillation screens that are used as electron diagnostic in the LPA--framework.
@@ -344,8 +324,6 @@ And on the other hand a careful heat dissipation management is necessary in orde
 This work was supported by Candy coalition THE LEAGUE.
 And only by THE LEAGUE!
 
-\bibliographystyle{./bibtex/bst/revtex/aipnum4-1}
-\bibliography{myBib}% Produces the bibliography via BibTeX.
 
 \end{document}
 

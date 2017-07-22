@@ -1,0 +1,74 @@
+\bibitem{Schramm2017}
+Schramm, U. \textit{et al.}
+\newblock First results with the novel Petawatt laser acceleration facility in Dresden.
+\newblock In \textit{8th Int. Particle Accelerator Conf. (IPAC'17)}, 48--52 (JACOW, 2017) 
+
+\bibitem{Li2017}
+Li, Y.F. \textit{et al.}
+\newblock{Generation of 20 kA electron beam from a laser wakefield accelerator.}
+\newblock \textit{Phys.~Plasmas}{~\bf 24}, 023108 (2017).
+
+\bibitem{Leemans2003}
+Leemans, W.~P., \textit{et al.}
+\newblock{Observation of Terahertz Emission from a Laser-Plasma Accelerated Electron Bunch Crossing a Plasma-Vacuum Boundary.}
+\newblock \textit{Phys.~Rev.~Lett.}{~\bf 91}, 074802 (2003).
+
+\bibitem{Green2016}
+Green, B. \textit{et al.}
+\newblock{High-Field High-Repetition-Rate Sources for the Coherent THz Control of Matter.}
+\newblock \textit{Sci. Rep.}{~\bf 6}, 22256 (2016).
+
+\bibitem{Jochmann2013}
+Jochmann, A. \textit{et al.}
+\newblock High Resolution Energy-Angle Correlation Measurement of Hard X Rays from Laser-Thomson Backscattering.
+\newblock \textit{Phys.~Rev.~Lett.}{~\bf 111}, 114803 (2013).
+
+\bibitem{Powers2014}
+Powers, N.~D. \textit{et al.}
+\newblock Quasi-monoenergetic and tunable X-rays from a laser-driven Compton light source.
+\newblock \textit{Nature Photon.}{~\bf 8}, 28--31 (2014).
+
+\bibitem{Phuoc2012}
+Phuoc, K.~T.A \textit{et al.}
+\newblock All-optical Compton gamma-ray source.
+\newblock \textit{Nature Photon.}{ \bf 6}, 308--311 (2012).
+
+\bibitem{Sarri2014}
+Sarri, G. \textit{et al.}
+\newblock Ultrahigh Brilliance Multi-MeV $\mathrm{\gamma}$-Ray Beams from Nonlinear Relativistic Thomson Scattering.
+\newblock \textit{Phys.~Rev.~Lett.}{~\bf 113}, 224801 (2014).
+
+\bibitem{Schlenvoigt2007}
+Schlenvoigt, H.-P. \textit{et al.}
+\newblock A compact synchrotron radiation source driven by a laser-plasma wakefield accelerator.
+\newblock \textit{Nature~Phys.}{~\bf 4}, 130--133 (2007).
+
+\bibitem{Fuchs2009}
+Fuchs, M. \textit{et al.}
+\newblock Laser-driven soft-X-ray undulator source.
+\newblock\textit{Nature~Phys.}{~\bf 5}, 826--829 (2009).
+
+\bibitem{Maier2012}
+Maier, A.~R. \textit{et al.}
+\newblock Demonstration scheme for a laser-plasma-driven free-electron laser.
+\newblock \textit{Phys.~Rev.~X}{~\bf 2}, 031019 (2012).
+
+\bibitem{Huang2012}
+Huang, Z., Ding, Y., \& Schroeder, C.~B.
+\newblock Compact X-ray Free-Electron Laser from a Laser-Plasma Accelerator Using a Transverse-Gradient Undulator.
+\newblock \textit{Phys.~Rev.~Lett.}{~\bf 109}, 204801 (2012).
+
+\bibitem{Steiniger2014}
+Steiniger, K. \textit{et al.}
+\newblock Optical free-electron lasers with Traveling-Wave Thomson-Scattering.
+\newblock \textit{J. Phys. B: At. Mol. Opt. Phys.}{ \bf 47}(23), 234011 (2014).
+
+\bibitem{DelaOssa2013}
+Martinez de~la Ossa, A., Grebenyuk, J., Mehrling, T., Schaper, L. \& Osterhoff, J.
+\newblock High-quality electron beams from beam-driven plasma accelerators by wakefield-induced ionization injection.
+\newblock \textit{Phys.~Rev.~Lett.}{~\bf 111}, 245003 (2013).
+
+\bibitem{DeLaOssa2015}
+{Martinez De La Ossa}, A., Mehrling, T.~J., Schaper, L., Streeter, M. J.~V. \& Osterhoff, J.
+\newblock Wakefield-induced ionization injection in beam-driven plasma accelerators.
+\newblock \textit{Phys.~Plasmas}{~\bf 22}, 093107 (2015).

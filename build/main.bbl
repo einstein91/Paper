@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{24}%
+\begin{thebibliography}{19}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -224,22 +224,6 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Nat. Commun.}\ }\textbf {\bibinfo
   {volume} {4}},\ \bibinfo {pages} {1988} (\bibinfo {year} {2013})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Esarey}, \citenamefont {Schroeder},\ and\
-  \citenamefont {Leemans}(2009)}]{Esarey2009}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Esarey}}, \bibinfo {author} {\bibfnamefont {C.~B.}\ \bibnamefont
-  {Schroeder}}, \ and\ \bibinfo {author} {\bibfnamefont {W.~P.}\ \bibnamefont
-  {Leemans}},\ }\href {\doibase 10.1103/RevModPhys.81.1229} {\bibfield
-  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
-  {81}},\ \bibinfo {pages} {1229} (\bibinfo {year} {2009})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Hooker}(2013)}]{Hooker2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont
-  {Hooker}},\ }\href {\doibase 10.1038/nphoton.2013.234} {\bibfield  {journal}
-  {\bibinfo  {journal} {Nat. Photonics}\ }\textbf {\bibinfo {volume} {7}},\
-  \bibinfo {pages} {775} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sarri}\ \emph {et~al.}(2014)\citenamefont {Sarri},
   \citenamefont {Corvan}, \citenamefont {Schumaker}, \citenamefont {Cole},
   \citenamefont {{Di Piazza}}, \citenamefont {Ahmed}, \citenamefont {Harvey},
@@ -266,44 +250,6 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {113}},\ \bibinfo {pages} {224801} (\bibinfo {year}
   {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Ta Phuoc}}\ \emph {et~al.}(2012)\citenamefont {{Ta
-  Phuoc}}, \citenamefont {Corde}, \citenamefont {Thaury}, \citenamefont
-  {Malka}, \citenamefont {Tafzi}, \citenamefont {Goddet}, \citenamefont {Shah},
-  \citenamefont {Sebban},\ and\ \citenamefont {Rousse}}]{TaPhuoc2012}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Ta
-  Phuoc}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Corde}},
-  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Thaury}}, \bibinfo
-  {author} {\bibfnamefont {V.}~\bibnamefont {Malka}}, \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Tafzi}}, \bibinfo {author} {\bibfnamefont
-  {J.~P.}\ \bibnamefont {Goddet}}, \bibinfo {author} {\bibfnamefont {R.~C.}\
-  \bibnamefont {Shah}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Sebban}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Rousse}},\ }\href {\doibase 10.1038/NPHOTON.2012.82} {\bibfield  {journal}
-  {\bibinfo  {journal} {Nat. Photonics}\ }\textbf {\bibinfo {volume} {6}},\
-  \bibinfo {pages} {308} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Schlenvoigt}\ \emph {et~al.}(2008)\citenamefont
-  {Schlenvoigt}, \citenamefont {Haupt}, \citenamefont {Debus}, \citenamefont
-  {Budde}, \citenamefont {J{\"{a}}ckel}, \citenamefont {Pfotenhauer},
-  \citenamefont {Schwoerer}, \citenamefont {Rohwer}, \citenamefont {Gallacher},
-  \citenamefont {Brunetti}, \citenamefont {Shanks}, \citenamefont {Wiggins},\
-  and\ \citenamefont {Jaroszynski}}]{Schlenvoigt2008}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.-P.}\ \bibnamefont
-  {Schlenvoigt}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Haupt}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Debus}}, \bibinfo
-  {author} {\bibfnamefont {F.}~\bibnamefont {Budde}}, \bibinfo {author}
-  {\bibfnamefont {O.}~\bibnamefont {J{\"{a}}ckel}}, \bibinfo {author}
-  {\bibfnamefont {S.}~\bibnamefont {Pfotenhauer}}, \bibinfo {author}
-  {\bibfnamefont {H.}~\bibnamefont {Schwoerer}}, \bibinfo {author}
-  {\bibfnamefont {E.}~\bibnamefont {Rohwer}}, \bibinfo {author} {\bibfnamefont
-  {J.~G.}\ \bibnamefont {Gallacher}}, \bibinfo {author} {\bibfnamefont
-  {E.}~\bibnamefont {Brunetti}}, \bibinfo {author} {\bibfnamefont {R.~P.}\
-  \bibnamefont {Shanks}}, \bibinfo {author} {\bibfnamefont {S.~M.}\
-  \bibnamefont {Wiggins}}, \ and\ \bibinfo {author} {\bibfnamefont {D.~A.}\
-  \bibnamefont {Jaroszynski}},\ }\href {\doibase 10.1038/nphys811} {\bibfield
-  {journal} {\bibinfo  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume}
-  {4}},\ \bibinfo {pages} {130} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Fuchs}\ \emph {et~al.}(2009)\citenamefont {Fuchs},
   \citenamefont {Weingartner}, \citenamefont {Popp}, \citenamefont {Major},
   \citenamefont {Becker}, \citenamefont {Osterhoff}, \citenamefont {Cortrie},
@@ -331,29 +277,6 @@
   10.1038/NPHYS1404} {\bibfield  {journal} {\bibinfo  {journal} {Nat. Phys.}\
   }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {826} (\bibinfo {year}
   {2009})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Albert}\ \emph {et~al.}(2014)\citenamefont {Albert},
-  \citenamefont {Thomas}, \citenamefont {Mangles}, \citenamefont {Banerjee},
-  \citenamefont {Corde}, \citenamefont {Flacco}, \citenamefont {Litos},
-  \citenamefont {Neely}, \citenamefont {Vieira}, \citenamefont {Najmudin},
-  \citenamefont {Bingham}, \citenamefont {Joshi},\ and\ \citenamefont
-  {Katsouleas}}]{Albert2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Albert}}, \bibinfo {author} {\bibfnamefont {a.~G.~R.}\ \bibnamefont
-  {Thomas}}, \bibinfo {author} {\bibfnamefont {S.~P.~D.}\ \bibnamefont
-  {Mangles}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Banerjee}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Corde}}, \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Flacco}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Litos}}, \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Neely}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Vieira}}, \bibinfo {author} {\bibfnamefont
-  {Z.}~\bibnamefont {Najmudin}}, \bibinfo {author} {\bibfnamefont
-  {R.}~\bibnamefont {Bingham}}, \bibinfo {author} {\bibfnamefont
-  {C.}~\bibnamefont {Joshi}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Katsouleas}},\ }\href {\doibase
-  10.1088/0741-3335/56/8/084015} {\bibfield  {journal} {\bibinfo  {journal}
-  {Plasma Phys. Control. Fusion}\ }\textbf {\bibinfo {volume} {56}},\ \bibinfo
-  {pages} {084015} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Tanaka}\ \emph {et~al.}(2005)\citenamefont {Tanaka},
   \citenamefont {Yabuuchi}, \citenamefont {Sato}, \citenamefont {Kodama},
   \citenamefont {Kitagawa}, \citenamefont {Takahashi}, \citenamefont {Ikeda},
