@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.25)  22 JUL 2017 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.25)  22 JUL 2017 17:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -999,16 +999,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \c__siunitx_mathtt_int=\count172
 
 
-Package natbib Warning: Citation `Schramm2017' on page 1 undefined on input lin
-e 127.
-
-
 Package natbib Warning: Citation `Couperus2017' on page 1 undefined on input li
 ne 128.
-
-
-Package natbib Warning: Citation `Li2017' on page 1 undefined on input line 128
-.
 
 
 Package natbib Warning: Citation `Leemans2003' on page 1 undefined on input lin
@@ -1019,56 +1011,24 @@ Package natbib Warning: Citation `Green2016' on page 1 undefined on input line
 128.
 
 
-Package natbib Warning: Citation `Jochmann2013' on page 1 undefined on input li
-ne 128.
-
-
-Package natbib Warning: Citation `Powers2014' on page 1 undefined on input line
- 128.
-
-
-Package natbib Warning: Citation `Phuoc2012' on page 1 undefined on input line 
-128.
-
-
-Package natbib Warning: Citation `Schlenvoigt2007' on page 1 undefined on input
- line 128.
-
-
-Package natbib Warning: Citation `Maier2012' on page 1 undefined on input line 
-128.
-
-
 Package natbib Warning: Citation `Huang2012' on page 1 undefined on input line 
 128.
-
-
-Package natbib Warning: Citation `Steiniger2014' on page 1 undefined on input l
-ine 128.
-
-
-Package natbib Warning: Citation `DelaOssa2013' on page 1 undefined on input li
-ne 128.
-
-
-Package natbib Warning: Citation `DeLaOssa2015' on page 1 undefined on input li
-ne 128.
 
 
 Underfull \hbox (badness 2865) in paragraph at lines 125--129
 []\OT1/cmr/m/n/10 Since their the-o-ret-i-cally pred-i-ca-tion in 1979 by
  []
 
-[1]
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 139.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 1442) in paragraph at lines 139--145
 []\OT1/cmr/m/n/10 These scin-til-la-tion screens con-sist of a [][] to
  []
 
+[1]
 
 Package xr Warning: 
 No file Screen_data.aux
@@ -1121,12 +1081,17 @@ File: ./Figures/Damage.eps Graphic file (type eps)
 <./Figures/Damage.eps>
 ("C:\Users\Thomas\Desktop\Eigene Dokumente\Studium\Promotion\Projects\Lanex Cal
 ibration\Paper\build\main.bbl" [6]
-Underfull \hbox (badness 3138) in paragraph at lines 84--91
+Underfull \hbox (badness 3138) in paragraph at lines 136--143
  []\OT1/cmr/m/n/8 E. W. Gaul, M. Mar-tinez, J. Blak-eney, A. Jochmann,
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 323--330
+Underfull \hbox (badness 1490) in paragraph at lines 322--329
+ []\OT1/cmr/m/n/8 A. Jochmann, A. Ir-man, M. Buss-mann, J. P. Coupe-rus,
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 534--541
  []\OT1/cmr/m/n/8 K. Zeil, S. D. Kraft, A. Jochmann, F. Kroll, W. Jahr,
  []
 
@@ -1142,13 +1107,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14620 strings out of 493329
- 277992 string characters out of 3139147
- 331619 words of memory out of 3000000
- 17999 multiletter control sequences out of 15000+200000
+ 14650 strings out of 493329
+ 278681 string characters out of 3139147
+ 355245 words of memory out of 3000000
+ 18029 multiletter control sequences out of 15000+200000
  24246 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,16n,37p,10377b,1053s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on "C:\Users\Thomas\Desktop\Eigene Dokumente\Studium\Promotion\P
-rojects\Lanex Calibration\Paper\build\main.dvi" (7 pages, 47744 bytes).
+rojects\Lanex Calibration\Paper\build\main.dvi" (7 pages, 51144 bytes).
