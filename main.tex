@@ -1,7 +1,7 @@
  % ****** Start of file main.tex ******
 
 \documentclass[%
-reprint,
+preprint,
 amsmath,
 amssymb,
 aip,
@@ -156,42 +156,42 @@ The absolute calibration presented here has significant improvements compared to
 \externaldocument{Screen_data}
 The setup for the absolute charge calibration of the scintillation screens is illustrated in Fig. \ref{fig:Setup}.
 The measurement was performed at the ELBE linear accelerator (LINAC) at the Helmholtz--Zentrum Dresden--Rossendorf. 
-The accelerator was operated such that it produced sub--\SI{10}{\pico\second} long electron bunches with charges up to \SI{50}{\pico\coulomb} and a maximum kinetic energy of \SI{23}{\mega\electronvolt} at \SI{13}{\mega\hertz} repetition rate.  
-For generating higher charges, the accelerator changed into multiple bunch mode. 
-This means the cavity emits a train of pulses that is tunable in its length.
-The temporal delay of the single bunches within this pulse--train is \SI{77}{\nano\second}. 
-All these short bunches add their charge onto the screens, due to the short delay compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
-The electron beam emitted by the LINAC is focused by magnetic quadrupoles to a focal spot.
-This leads to a FWHM--beam size of \SIrange{6}{7}{\milli\metre^2} at the target.
-This small spot size enabled us to reach charge densities up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} which are necessary to study saturation effects in the active layer of the scintillator.
-In front of the screen, the charge of the focused electron bunch is measured by an integrated current transformer (ICT-082-070-05:1-VAC, Bergoz Instrumentation, France). 
-In order to get a useful ICT signal the pulses were amplified (Pulse Amplifier Coaxial ZPUL-30P, Mini Circuits, USA) by roughly a factor of 50 and recorded by a high quality oscilloscope (Information required).
-Simulations show that the energy deposition of the electrons inside the photo--luminescent layer is almost independent of the their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
+Sub--\SI{10}{\pico\second} long electron bunches with charges up to \SI{50}{\pico\coulomb} are accelerated to a maximum kinetic energy of \SI{23}{\mega\electronvolt} at \SI{13}{\mega\hertz} repetition rate. 
+Ideally we would prefer to calibrate the scintillation screens at relevant energies (\SI{200}{\mega\electronvolt} but we are limited by the power of the linear accelerator.
+However, simulations show that the energy deposition of the electrons inside the photo--luminescent layer is almost independent of the their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
 Thus the calibration results can be used to determine the charge in an experiment with highly relativistic electrons, i.e. laser wakefield acceleration even though the energy is one order magnitude lower than in LPA experiments. 
-After passing the ICT, the electrons collide with the screen. 
-The screens were mounted on a rotating target wheel which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam.
-This geometry enables us to mount the deflector mirror out of the beam--axis and therefore avoid any optical transition radiation (OTR) background. 
-In the active layer of the screen, phosphor atoms get excited by the incoming electrons which radiate photons while relaxing back into the ground state. 
+For generating higher charges, the accelerator is operated in a multiple bunch mode with tunable length. 
+The temporal delay of the single bunches within this pulse--train is \SI{77}{\nano\second}. 
+The total charge of this train is deposited on the the screen in a short period, compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
+The electron beam is focused by magnetic quadrupoles to a full width at half maximum (FWHM)--beam size of \SIrange{6}{7}{\milli\metre^2} at the target.
+This leads to charge densities up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} which are necessary to study saturation effects in the active layer of the scintillator.
+In front of the screen, the charge of each electron bunch is measured by an integrated current transformer (ICT-082-070-05:1-VAC, Bergoz Instrumentation, France). 
+The ICT pulses were amplified by a factor of 53 (Pulse Amplifier Coaxial ZPUL-30P, Mini Circuits, USA) and recorded by a high quality oscilloscope (2GHz RTE 1204, Rhod$\&$Schwarz, Germany).
+
+After passing the ICT, the electrons interact with the screen. 
+In the active layer of the screen, phosphor atoms are excited by the incoming electrons which radiate photons while relaxing back into the ground state.
 The light emission distribution of these screens follows approximately Lambertian law\myCite{Giakoumakis1985}. 
-The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12–bit CCD–camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective imaged to the CCD--chip. 
-Thanks to the alignment of the mirror the camera looks perpendicularly onto the screens which maximizes the light emission onto the CCD–-chip according to Lambertian law. 
-In front of the camera--lens, another ND--filter wheel ranging from ND0.5 to ND4.0 is placed for generating a dynamic range containing 7 orders of magnitude. 
-The ND--filters are an important component because they are used directly (part of $\upbeta$ in eq. \ref{eq:ac}) in the calibration run to adapt the screen's signal to the dynamic range of the CCD--camera as well as in the quantum efficiency measurement of the CCD--chip.
-Thus the filters were calibrated precisely using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).
+The screens were mounted on a rotating target wheel which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam.
+The deflector mirror is mounted out of the beam--axis to avoid any background from optical transition radiation (OTR).  
+The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12–bit CCD–camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective. 
+Thanks to the alignment of the mirror the camera looks perpendicularly onto the screens which maximizes the light emission onto the CCD–-chip according to Lambertian law.
+ 
+In front of the camera--lens, another ND--filter wheel ranging from ND0.5 to ND4.0 is placed for generating a dynamic range of 7 orders of magnitude. 
+In order to minimize the measurement uncertainties, the filters were calibrated precisely (below 0.5$\%$ accuracy) using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).
 Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics ) is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources.
 The fiber is placed on a linear motor to switch quickly between calibration and spectrum measurements. 
  
 \begin{figure}
-\includegraphics[width=8.5cm]{./Figures/Setup_V2}% Here is how to import EPS art
+\includegraphics[width=8.5cm]{./Figures/Setup_V3}% Here is how to import EPS art
 \caption{\label{fig:Setup}Setup for absolute charge calibration of scintillation screens: ICT measures the charge of the electron beam. 
-Six different screens with an angle of $22\degree$ relative to the incoming electron beam are mounted on a filter wheel and imaged via a silver mirror onto a CCD--chip.
-In order to generate the desired dynamic range a set of ND--filters were placed in front of the camera.}
+Six different screens with an angle of $22\degree$ relative to the incoming electron beam were mounted on a filter wheel and optically imaged via a silver mirror onto a CCD--chip.
+In order to generate the desired dynamic range a set of ND--filters was placed in front of the camera.}
 \end{figure}
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/electron_bunch}% Here is how to import EPS art
 \caption{\label{fig:electron_bunch}
 Image of electron bunch recorded by CCD–sensor. 
-The rectangle marks the region of interest (ROI) only this area was used for the analysis. 
+The rectangle marks the region of interest (ROI) was used for the analysis. 
 The two curves indicate the line–-out of the electron bunch through its peak in
 horizontal and vertical dimension. 
 The area of the bunch at FWHM is $\approx$ \SI{6}{\square\milli\meter}.}
