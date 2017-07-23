@@ -261,7 +261,8 @@ Birk’s law is used to fit the response curve of the scintillator:
 where the fit parameter B is the Birk's constant.
 Here, $\uprho_{\text{ICT}}$ is the applied charge density.
 It is calculated from the electron bunch charge recorded by the ICT and the beam profile of the scintillator in the linear region. 
-Assume a constant bunch profile, we extrapolate $\uprho_{\text{ICT}}$ into the saturated regime using the charge information from the ICT. $\uprho_{\text{scint}}$ defines the charge density detected by the scintillator.
+Assuming a constant bunch profile, we extrapolate $\uprho_{\text{ICT}}$ into the saturated regime using the charge information from the ICT. 
+$\uprho_{\text{scint}}$ defines the charge density detected by the scintillator.
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Sat}% Here is how to import EPS art
 \caption{\label{fig:Sat} Typical response function of Kodak Biomax MS: The peak charge density emitted by the screen vs. the peak charge density calculated with respect to the ICT data. 
@@ -273,7 +274,7 @@ The saturation value $\uprho_{\text{sat}}$ is defined as the peak charge density
 This arbitrary measure is chosen such that the saturation effect can be clearly distinguished from measurement uncertainties in the linear case. 
 Fig. \ref{fig:Sat} shows a saturated response of the scintillation peak signal with increasing electron peak charge density. 
 The black dashed line shows the ideal linear correlation of $\uprho_{\text{scint}}$ and $\uprho_{\text{ICT}}$, while the red curve indicates the fit along the measured data. 
-We observe significant non--linearities in the saturation curve in the range of \si[per-mode=symbol]{\nano\coulomb \per \square\milli\meter} which is far beyond current LPA's but this effects might become important in the future. 
+We observe a significant deviation from linearity in the range of \si[per-mode=symbol]{\nano\coulomb \per \square\milli\meter}.
 The resulting threshold values and the fit parameter B for the different screens are shown in table \ref{table:res}.
 However the experimental implementation of the setup overestimates this effect by several percent. 
 This is due to the fact that the pulse length of the Linac increases with increasing charge density.

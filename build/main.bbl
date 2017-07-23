@@ -577,17 +577,6 @@
   10.1063/RevSciInstrum1.3310275} {\bibfield  {journal} {\bibinfo  {journal}
   {Rev. Sci. Instrum.}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo {pages}
   {033301} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Morlotti}\ \emph {et~al.}(1997)\citenamefont
-  {Morlotti}, \citenamefont {Nikl}, \citenamefont {Piazza},\ and\ \citenamefont
-  {Boragno}}]{Morlotti1997}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Morlotti}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nikl}},
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Piazza}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {C.}~\bibnamefont {Boragno}},\ }\href {\doibase
-  10.1016/S0022-2313(96)00330-4} {\bibfield  {journal} {\bibinfo  {journal} {J.
-  Lumin.}\ }\textbf {\bibinfo {volume} {72-74}},\ \bibinfo {pages} {772}
-  (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hidding}\ \emph {et~al.}(2007)\citenamefont
   {Hidding}, \citenamefont {Pretzler}, \citenamefont {Clever}, \citenamefont
   {Brandl}, \citenamefont {Zamponi}, \citenamefont {L{\"{u}}bcke},
@@ -634,6 +623,17 @@
   10.1063/RevSciInstrum1.2360988} {\bibfield  {journal} {\bibinfo  {journal}
   {Rev. Sci. Instrum.}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages}
   {103301} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Morlotti}\ \emph {et~al.}(1997)\citenamefont
+  {Morlotti}, \citenamefont {Nikl}, \citenamefont {Piazza},\ and\ \citenamefont
+  {Boragno}}]{Morlotti1997}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Morlotti}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nikl}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Piazza}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Boragno}},\ }\href {\doibase
+  10.1016/S0022-2313(96)00330-4} {\bibfield  {journal} {\bibinfo  {journal} {J.
+  Lumin.}\ }\textbf {\bibinfo {volume} {72-74}},\ \bibinfo {pages} {772}
+  (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Giakoumakis}\ and\ \citenamefont
   {Miliotis}(1985)}]{Giakoumakis1985}%
   \BibitemOpen
