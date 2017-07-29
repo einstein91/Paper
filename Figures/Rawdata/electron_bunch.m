@@ -1,21 +1,25 @@
 % Planned to show nice electron bunch with real dimensions in the paper
+clear all;
 
 %% Read in the image
 image_folder = '\\cns\projects\HPLexp\Electrons\Experimental data\2016\LWFA\Lanex calibration\2016-05-10 Lanex calibration\DataI';
 image_filename = 'Lanex_2016-05-11_00h-20m-00s_21018_original.png';
 e_bunch = imread([image_folder '\' image_filename]);
 
-%convert to double
+% convert to double
 e_bunch = double(e_bunch);
 
+% normalize
+e_bunch = e_bunch / max(e_bunch(:));
+
 %Show raw image
-figure(1)
+figure
 imagesc(e_bunch, 'Cdatamapping', 'scaled');
 
 % Show ROI-image
 pos_roi = [425 645 510 810];
 e_bunch_roi = e_bunch(pos_roi(1):pos_roi(2), pos_roi(3):pos_roi(4));
-figure(2)
+figure
 imagesc(e_bunch_roi, 'Cdatamapping', 'scaled');
 
 %% Conversion into mm
@@ -66,7 +70,7 @@ conversion_y = 3.75*10^-3 * (362/53 -1);
         end
 
         % -----Plot profiles----------------
-        hf2 = figure(3);
+        hf2 = figure;
         set(hf2, 'Position', [20 20 950 900])
         alpha(0)
         subplot('Position',[0.1 0.1 0.7 0.7]);
