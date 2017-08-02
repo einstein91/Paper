@@ -1,7 +1,7 @@
  % ****** Start of file main.tex ******
 
 \documentclass[%
-reprint,
+preprint,
 amsmath,
 amssymb,
 aip,
@@ -165,12 +165,12 @@ The temporal delay of the single bunches within this pulse--train is \SI{77}{\na
 The total charge of this train is deposited on the the screen in a short period, compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
 The electron beam is focused by magnetic quadrupoles to a full width at half maximum (FWHM)--beam size of \SIrange{6}{7}{\milli\metre^2} at the target.
 This leads to charge densities up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} which are necessary to study saturation effects in the active layer of the scintillator.
-In front of the screen, the charge of each electron bunch is measured by an integrated current transformer (ICT--082--070--05:1--VAC, Bergoz Instrumentation, France). 
-The ICT pulses were amplified by a factor of 53 (Pulse Amplifier Coaxial ZPUL--30P, Mini Circuits, USA) and recorded by a high quality oscilloscope (2GHz RTE 1204, Rhod$\&$Schwarz, Germany).
+Immediately before interaction with the screen, the charge of each electron bunch is measured by an integrated current transformer (ICT--082--070--05:1--VAC, Bergoz Instrumentation, France). 
+The ICT pulses were amplified by a factor of 56 (Pulse Amplifier Coaxial ZPUL--30P, Mini Circuits, USA) and recorded by a high quality oscilloscope (2GHz RTE 1204, Rhod$\&$Schwarz, Germany).
 
 After passing the ICT, the electrons interact with the screen. 
-In the active layer of the screen, phosphor atoms are excited by the incoming electrons which radiate photons while relaxing back into the ground state.
-The light emission distribution of these screens follows approximately Lambertian law\myCite{Giakoumakis1985}. 
+In the active layer of the screen, phosphor atoms are excited by the incoming electrons and radiate photons while relaxing back into the ground state.
+The light emission distribution of the screens follows approximately Lambertian law\myCite{Giakoumakis1985}. 
 The screens were mounted on a rotating target wheel which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam.
 The deflector mirror is mounted out of the beam--axis to avoid any background from optical transition radiation (OTR).  
 The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12–bit CCD–camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective. 
@@ -199,21 +199,21 @@ The area of the bunch at FWHM is $\approx$ \SI{6}{\square\milli\meter}.}
 
 \section{\label{Res} Results}
 \subsection{\label{Ac} Absolute charge calibration}
-
-We have calibrated our optical detection system in order to determine the absolute amount of \si[per-mode=symbol]{photons \per \steradian}  emitted by the the scintillator.
+The absolute calibration is the benchmark for scintillators used as the energy--dependent charge diagnostic. 
+Therefore, we have calibrated our optical detection system in order to determine the absolute amount of \si[per-mode=symbol]{photons \per \steradian} emitted by the the scintillator.
 Together with a precise knowledge (5$\%$ accuracy) of the LINAC's bunch charge we are able to measure the absolute scintillation efficiency (\si[per-mode=symbol]{photons \per e^-}) in case of an excitation with relativistic electrons.
-The effective aperture in our optical detection system was \SI[separate-uncertainty = true]{2.89(7)e-3}{\steradian} defined by an aperture with \SI[separate-uncertainty = true]{22.96(5)}{\milli\metre} mounted at a distance of \SI[separate-uncertainty = true]{361(4)}{\milli\metre} to the target.
+The effective aperture in our optical detection system was \SI[separate-uncertainty = true]{3.18(7)e-3}{\steradian} defined by an aperture with \SI[separate-uncertainty = true]{22.96(5)}{\milli\metre} mounted at a distance of \SI[separate-uncertainty = true]{361(4)}{\milli\metre} to the target.
 
 A representative image of an electron bunch that was recorded during the calibration is shown in Fig. \ref{fig:electron_bunch}. 
 The brightness of the scintillator is measured as the integrated CCD--counts in the ROI after subtraction of the background from the camera and accelerator (darkccurrent). 
-Accordingly, the number of photons N$_{\text{photon}}$ emitted by the scintillator into a surface covering one steradian per amount of incident electrons N$_{\text{electron}}$ can be described as
+Accordingly, the number of photons N$_{\text{photon}}$ emitted by the scintillator into a surface covering one steradian per incident electron charge Q$_{\text{electron}}$ can be described as
 \begin{equation}
-\frac{N_{\text{photon}}}{N_{\text{electron}}} = N_{\text{count}}\cos(\phi)\beta^{-1}\Omega^{-1}N_{\text{electron}}^{-1}{\;,}
+\frac{N_{\text{photon}}}{Q_{\text{electron}}} = N_{\text{count}}\cos(\varphi)\beta^{-1}\Omega^{-1}Q_{\text{electron}}^{-1}{\;,}
 \label{eq:ac}
 \end{equation}
 where N$_{\text{count}}$ describes the total number of counts in the ROI of the raw image.
-$\upphi$ is the angle between the electron beam and the normal vector of the scintillator's surface.
-Thus the photon signal recorded by the CCD--camera was corrected for the incidence angle of the electrons.
+$\upvarphi$ is the angle between the electron beam and the normal vector of the scintillator's surface.
+The cosine corrects the photon signal recorded by the CCD--camera for the incidence angle of the electrons since they have an elongated interaction length scaling with $\cos(\varphi)^{-1}$.
 $\Upomega$ symbolizes the effective collection angle in units of steradian.
 Finally, $\upbeta$ denotes the efficiency of the entire detection system, i.e. the probability for a photon created at the source, traveling through the optical beamline, reaching the CCD--chip and converted to a count by the ADC.
 For completeness, $\upbeta$ can be disassembled in its individual parts. 
@@ -232,25 +232,13 @@ The error of the values was determined using the method of Gaussian error propag
 \includegraphics[width=\textwidth]{./Figures/Absolute}% Here is how to import EPS art
 \caption{\label{fig:Calib}(Color) Absolute charge calibration of six different scintillation screens.
 The linearity hypothesis is valid up to a certain charge density threshold. Beyond this nonlinear saturation effects start to dominate the photon response.
-'\textit{Buck et al.}' indicates a calibration curve for '\textit{Kodak Lanex Fine}' from a former experiment \cite{Buck2010} (blue dotted line).
-Additionally two reference data points for '\textit{Kodak Lanex Fine}' are included. 
-The red circle is determined by a calculation from a MC--Simulation reported in Glinec et al. \cite{Glinec2006} and also referenced in the publication of Buck et al. 
-However, the red square supporting our values was deduced from the full set of experimental results given by Glinec et al.. }
+Buck et al. indicates a calibration curve for Kodak Lanex Fine from a former experiment \cite{Buck2010} (dashed line).
+Additionally two reference data--points for Kodak Lanex Fine are included. 
+The red circle is determined by a calculation based on a Monte--Carlo--Simulation reported in Glinec et al. \cite{Glinec2006} and also referenced in the publication of Buck et al. 
+The red square was deduced from the full set of experimental results given by Glinec et al.. }
 \end{figure*}
 
-\subsubsection{\label{Cc}Cross--calibration} 
-In order to simplify the determination of the charge in a laser--plasma experiment based on the result of this calibration experiment, additionally reference light sources were recorded by the CCD–-camera. 
-As long as the reference source delivers a constant photon signal over time and the calibration was performed with identical geometrical parameters (ensured by the filter--wheel in our case) the relative signal between the screen and the reference light source became independent of the detector geometry.
-In particular, we implemented a gaseous tritium light source (GTLS) and an LED--based diffused green radiator.
-The LED--source is aimed for an extended life time because it is operated by a constant current source with current fluctuation below $1\%$.
-Fortunately, the source is not very sensitive to temperature variation therefore the stabilization in laboratory environment is sufficient to keep the signal variations induced by temperature fluctuations in the order of per mille.  
-Thus the error of the cross calibration measurement do not add up to $10\%$ within a few years, instead it can be kept at least a factor of 5 lower and therefore the calibration values are longer valid.
-However, in certain scenarios the GTLS are still preferred due to their small size and vacuum compatibility.
-In such cases the LED--source act as a master light source to which tritium light sources can be cross--calibrated in regular intervals.
-
-
-
-\subsubsection{\label{Se}Saturation effects}
+\subsection{\label{Se}Saturation effects}
 Beyond the linear region of the calibration curves, the signal/charge--ratio gets non--linear due to a saturation in the active layer of the scintillator.
 Saturation occurs because probability that a certain atoms is excited multiple times before relaxing back into the ground state increases with increasing charge density.
 Birk’s law is used to fit the response curve of the scintillator:
@@ -261,10 +249,9 @@ Birk’s law is used to fit the response curve of the scintillator:
 where the fit parameter B is the Birk's constant.
 Here, $\uprho_{\text{ICT}}$ is the applied charge density.
 It is calculated from the electron bunch charge recorded by the ICT and the beam profile of the scintillator in the linear region. 
-Assuming a constant bunch profile, we extrapolate $\uprho_{\text{ICT}}$ into the saturated regime using the charge information from the ICT. 
-$\uprho_{\text{scint}}$ defines the charge density detected by the scintillator.
+Assuming a constant bunch profile, we extrapolate $\uprho_{\text{ICT}}$ into the saturated regime using the charge information from the ICT. $\uprho_{\text{scint}}$ defines the charge density detected by the scintillator.
 \begin{figure}
-\includegraphics[width=8.5cm]{./Figures/Sat}% Here is how to import EPS art
+\includegraphics[width=8.5cm]{./Figures/Sat_V2}% Here is how to import EPS art
 \caption{\label{fig:Sat} Typical response function of Kodak Biomax MS: The peak charge density emitted by the screen vs. the peak charge density calculated with respect to the ICT data. 
 The bunch profile shows a significant saturation towards higher charges. 
 The measured data is fitted with Birk's law of saturation (red line, see eq.\ref{eq:birk}). 
@@ -273,44 +260,40 @@ The black dotted line indicates $\uprho_{\text{Scint}} = \uprho_{\text{ICT}}$.}
 The saturation value $\uprho_{\text{sat}}$ is defined as the peak charge density, at which the scintillation signal has dropped down to 80$\%$ compared to the linear behavior.
 This arbitrary measure is chosen such that the saturation effect can be clearly distinguished from measurement uncertainties in the linear case. 
 Fig. \ref{fig:Sat} shows a saturated response of the scintillation peak signal with increasing electron peak charge density. 
-The black dashed line shows the ideal linear correlation of $\uprho_{\text{scint}}$ and $\uprho_{\text{ICT}}$, while the red curve indicates the fit along the measured data. 
-We observe a significant deviation from linearity in the range of \si[per-mode=symbol]{\nano\coulomb \per \square\milli\meter}.
+The black dashed line shows the linear correlation of $\uprho_{\text{scint}}$ and $\uprho_{\text{ICT}}$, while the red curve indicates the fit along the measured data. 
+We observe significant non--linearities in the saturation curve in the range of \si[per-mode=symbol]{\nano\coulomb \per \square\milli\meter}. 
 The resulting threshold values and the fit parameter B for the different screens are shown in table \ref{table:res}.
-However the experimental implementation of the setup overestimates this effect by several percent. 
-This is due to the fact that the pulse length of the Linac increases with increasing charge density.
+It should be noted, the experimental implementation of the setup underestimates this effect. 
 For the highest applied charges, the temporal length of the pulse train becomes significantly high compared to the life--time of the excited state.
 Electrons in the back of the bunch have an enhanced probability to excite an atom that has already relaxed back and thus add less to saturation.
-Hence the errorbars of those data--points are larger to include this uncertainty.
-For the same amount of applied accumulated electron dose at which reversible saturation is visible additionally permanent degeneration (see Sec. \ref{Ls}) comes into play.
+This effect has been included, but is only relevant for the last two data--points.
+ 
+Besides reversible saturation is visible additionally permanent degeneration comes into play (see Sec. \ref{Ls}).
 Reference measurement with a low charge of \SI{60}{\pico\coulomb} after each increment of the bunch charge during the calibration were performed to get a reasonable estimation for the correction factor in the saturation curve.
-Hence Fig. \ref{fig:Sat} is corrected for this damage and shows 'pure' saturation.      
+The values in Table \ref{table:res} and Fig. \ref{fig:Sat} are corrected for this damage.      
 
 \subsection{\label{Ls}Long--term stability tests}
 A reliable performance of the particle detector is a very crucial issue in a LPA because it ensures the correct determination of the bunch charge.
 Up to now a constant light yield factor (see Sec. \ref{Ac}) over time was assumed but never experimentally measured. 
 We have tested degeneration or artificial aging effects of the phosphor layer of the scintillation screens caused by the electron dose applied to the screens during a dedicated long term run.
-The measurement parameters were chosen such that the behavior of those samples under LWFA--conditions, i.e. implemented in an electron spectrometer can be simulated as close as possible.
+The measurement parameters were chosen such to represent LWFA--conditions as close as possible.
 Every second, the screen was irradiated by an electron bunch with a charge of \SI{100}{\pico\coulomb} for a measurement--time of \SI{90}{\minute}.
 The FWHM--bunch area was kept at \SI{6}{\square\milli\meter} to get realistic mean electron densities at the target on the order of \SI[per-mode=symbol]{9}{\pico\coulomb \per \square\milli\meter}. 
 Fig. \ref{fig:Dt_Min_rel} shows the fluorescence signal as a function of the applied cumulated electron charge density over time. 
-A significant drop of $\approx\, 11\,\%$ in the emitted photon signal over time can be observed.
-By comparing the decay speed of several measurements, a correlation between the steepness of the exponential decay and the electron density at the target can be concluded.
-Thus a realistic choice of the beam parameters is necessary to study long term effects that can occur during a usage in LPA--experiments.
+A significant drop of $9\,\%$ in the emitted scintillation efficiency over time can be observed.
  
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Dt_Min_rel}% Here is how to import EPS art
 \caption{\label{fig:Dt_Min_rel} Long term performance test with Konica Minolta: 
 The screen was irradiated constantly for \SI{1.5}{\hour} with \SI{1}{\hertz} repetition rate, \SI{100}{\pico\coulomb} charge and a spot size of \SI{6}{\square\milli\meter} at FWHM. 
 The data was fitted with an exponential decay function. 
-The decay of the photon signal during this experiment was $~11\%$.}
+The decay of the photon signal during this experiment was $~9\%$.}
 \end{figure}
 
-We have also seen a clear indication that the operation of a high repetition--rate wake--field accelerator equipped with a scintillator as the electron beam monitor probably will struggle with heat dissipation.
-The temporal evolution of the fluorescence efficiency during a different long term test than the above discussed one is plotted in Fig. \ref{fig:Damage}.
-In order to describe the behavior, we divide the graph into three parts labeled with the according number. 
+The temporal evolution of the fluorescence efficiency during a different long term test than the discussed above one is plotted in Fig. \ref{fig:Damage}.
 First, the scintillator shows its characteristic decay. 
 A representative beam profile for a shot at \SI[per-mode=symbol]{50}{\nano\coulomb \per \milli\meter\square}  supports this behavior.
-At a certain point (labeled with 2), the thermal load induced by the impinging electrons becomes to high and the screen shows a very bright spot with a hole in its center.
+After applying \SI[per-mode=symbol]{52}{\nano\coulomb \per \milli\meter\square}, the screen lights up a very bright spot with a hole in its center.
 Afterwards the screen is permanently damaged and approximately three times darker than before.
 This is a clear indication that this effect is induced by the thermal load of the electron energy since the heat energy in vacuum can only be transferred to the environment by infra--red emission of radiation.
 
@@ -324,6 +307,14 @@ Due to a lack of heat dissipation in vacuum a the behavior can be explained by t
 
 \section{\label{Cn} DISCUSSION}
 This work is designed to investigate the absolute photon response and the linear regime of various scintillation screens that are used as electron diagnostic in the LPA--framework.
+In order to simplify the determination of the charge in a laser--plasma experiment based on the result of this calibration experiment, additionally reference light sources were recorded by the CCD–-camera. 
+As long as the reference source delivers a constant photon signal over time and the calibration was performed with identical geometrical parameters (ensured by the filter--wheel in our case) the relative signal between the screen and the reference light source became independent of the detector geometry.
+In particular, we implemented a gaseous tritium light source (GTLS) and an LED--based diffused green radiator.
+The LED--source is aimed for an extended life time because it is operated by a constant current source with current fluctuation below $1\%$.
+Fortunately, the source is not very sensitive to temperature variation therefore the stabilization in laboratory environment is sufficient to keep the signal variations induced by temperature fluctuations in the order of per mille.  
+Thus the error of the cross calibration measurement do not add up to $10\%$ within a few years, instead it can be kept at least a factor of 5 lower and therefore the calibration values are longer valid.
+However, in certain scenarios the GTLS are still preferred due to their small size and vacuum compatibility.
+In such cases the LED--source act as a master light source to which tritium light sources can be cross--calibrated in regular intervals.
 In addition to the work of Buck et al.\myCite{Buck2010} that is commonly considered as the reference, we performed an extended calibration campaign with some clear advantages.
 First of all the calibration of the screens take place in vacuum.
 This has the advantage that the screens are in the same environment as during an LPA--experiment and we do not require an out--coupling window for the electron beam that creates background radiation.
@@ -341,7 +332,8 @@ To our knowledge this has never been performed before but is mandatory to mainta
 Once LPA's rise up their beam charge and repetition--rate in order to reach the user--facility state two effects might appear.
 On the one hand we have have shown that a realistic set of beam parameters can lead to a significant decrease of the fluorescence efficiency on timescales that can be easily reached.
 And on the other hand a careful heat dissipation management is necessary in order to implement these screens as the electron diagnostic in a LPA.
-      
+
+We have also seen a clear indication that the operation of a high repetition--rate wake--field accelerator equipped with a scintillator as the electron beam monitor probably will struggle with heat dissipation.      
 \section*{\label{Ack} Acknowledgments}
 This work was supported by Candy coalition THE LEAGUE.
 And only by THE LEAGUE!

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.25)  23 JUL 2017 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.5.25)  2 AUG 2017 22:49
 entering extended mode
 **./main.tex
 (main.tex
@@ -71,13 +71,13 @@ Class revtex4-1 Info: RevTeX society AIP selected on input line 67.
 Class revtex4-1 Info: Selecting journal rsi on input line 7544.
 
 Using journal substyle rsi.
-Class revtex4-1 Info: Reading file aps10pt4-1.rtx on input line 7547.
-("C:\Program Files\MiKTeX 2.9\tex\latex\revtex\aps10pt4-1.rtx"
-File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+Class revtex4-1 Info: Reading file aps12pt4-1.rtx on input line 7547.
+("C:\Program Files\MiKTeX 2.9\tex\latex\revtex\aps12pt4-1.rtx"
+File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
-Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
 )
-Class revtex4-1 Info: Overriding 10pt on input line 7547.
+Class revtex4-1 Info: Overriding 12pt on input line 7547.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -869,9 +869,7 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 29.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 29.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 29.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 29.
-
-("C:\Users\Thomas\Desktop\Eigene Dokumente\Studium\Promotion\Projects\Lanex Cal
-ibration\Paper\build\main.aux")
+ (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -997,128 +995,75 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count172
+ [1] [2]
 
-
-Package natbib Warning: Citation `Couperus2017' on page 1 undefined on input li
+Package natbib Warning: Citation `Couperus2017' on page 3 undefined on input li
 ne 128.
 
 
-Package natbib Warning: Citation `Leemans2003' on page 1 undefined on input lin
+Package natbib Warning: Citation `Leemans2003' on page 3 undefined on input lin
 e 128.
 
 
-Package natbib Warning: Citation `Green2016' on page 1 undefined on input line 
+Package natbib Warning: Citation `Green2016' on page 3 undefined on input line 
 128.
 
 
-Package natbib Warning: Citation `Huang2012' on page 1 undefined on input line 
+Package natbib Warning: Citation `Huang2012' on page 3 undefined on input line 
 128.
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 125--129
-[]\OT1/cmr/m/n/10 Since their the-o-ret-i-cally pred-i-ca-tion in 1979 by
- []
 
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 139.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 1442) in paragraph at lines 139--145
-[]\OT1/cmr/m/n/10 These scin-til-la-tion screens con-sist of a [][] to
- []
-
-[1]
+) [3]
 
 Package xr Warning: 
 No file Screen_data.aux
 LABELS NOT IMPORTED.
  on input line 156.
 
-
-Underfull \hbox (badness 1348) in paragraph at lines 157--170
-\OT1/cmr/m/n/10 Rossendorf. Sub--[][] long elec-tron bunches with
- []
-
+[4]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
 File: ./Figures/Setup_V3.eps Graphic file (type eps)
 
 <./Figures/Setup_V3.eps>
 File: ./Figures/electron_bunch.eps Graphic file (type eps)
- <./Figures/electron_bunch.eps> [2]
+ <./Figures/electron_bunch.eps> [5] [6]
+(Tables/Screen_data.tex
+Overfull \hbox (3.32097pt too wide) in paragraph at lines 6--21
+ []$ 
+ []
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 210.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 210.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-(Tables/Screen_data.tex)
+) [7]
 File: ./Figures/Absolute.eps Graphic file (type eps)
  <./Figures/Absolute.eps>
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 241.
-
-[3] [4]
-File: ./Figures/Sat.eps Graphic file (type eps)
- <./Figures/Sat.eps>
+File: ./Figures/Sat_V2.eps Graphic file (type eps)
+ <./Figures/Sat_V2.eps> [8] [9] [10]
 File: ./Figures/Dt_Min_rel.eps Graphic file (type eps)
- <./Figures/Dt_Min_rel.eps> [5]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 315.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 315.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
+<./Figures/Dt_Min_rel.eps> [11]
 File: ./Figures/Damage.eps Graphic file (type eps)
-<./Figures/Damage.eps>
-("C:\Users\Thomas\Desktop\Eigene Dokumente\Studium\Promotion\Projects\Lanex Cal
-ibration\Paper\build\main.bbl" [6]
-Underfull \hbox (badness 3138) in paragraph at lines 136--143
- []\OT1/cmr/m/n/8 E. W. Gaul, M. Mar-tinez, J. Blak-eney, A. Jochmann,
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 322--329
- []\OT1/cmr/m/n/8 A. Jochmann, A. Ir-man, M. Buss-mann, J. P. Coupe-rus,
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 534--541
- []\OT1/cmr/m/n/8 K. Zeil, S. D. Kraft, A. Jochmann, F. Kroll, W. Jahr,
- []
-
-)
+ <./Figures/Damage.eps> [12] [13] (main.bbl
+[14] [15])
 
 Package natbib Warning: There were undefined citations.
 
-[7]
-("C:\Users\Thomas\Desktop\Eigene Dokumente\Studium\Promotion\Projects\Lanex Cal
-ibration\Paper\build\main.aux")
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+[16] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 14652 strings out of 493329
- 278701 string characters out of 3139147
- 349730 words of memory out of 3000000
- 18031 multiletter control sequences out of 15000+200000
- 24246 words of font info for 90 fonts, out of 3000000 for 9000
+ 14645 strings out of 493329
+ 278130 string characters out of 3139147
+ 311987 words of memory out of 3000000
+ 18030 multiletter control sequences out of 15000+200000
+ 26855 words of font info for 100 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,16n,37p,10377b,1053s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,16n,37p,10377b,1061s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on "C:\Users\Thomas\Desktop\Eigene Dokumente\Studium\Promotion\P
-rojects\Lanex Calibration\Paper\build\main.dvi" (7 pages, 50488 bytes).
+rojects\Lanex Calibration\Paper\build\main.dvi" (16 pages, 47732 bytes).
