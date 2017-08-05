@@ -1,7 +1,7 @@
  % ****** Start of file main.tex ******
 
 \documentclass[%
-preprint,
+reprint,
 amsmath,
 amssymb,
 aip,
@@ -133,7 +133,7 @@ In order to further improve the performance of LPAs, it is necessary to understa
 Therefore, a well suited single-shot electron diagnostic is required which resolves charge, energy and divergence over a large parameter range. 
 
 Typically a combination of a broad energy-range dipole magnet, which maps electron energy to position in the dispersive plane, is used in combination with a scintillation screen imaged onto a camera for charge diagnostic. 
-This screen generally covers an area in the order of hundreds of \si{\centi\metre^2} in order to cover the relevant parameter range. 
+This screen generally covers an area in the order of hundreds of \si{\centi\metre^2} to monitor the relevant parameter range. 
 Established techniques at conventional accelerators such as Faraday cups and integrating current transformers (ICT) aren't reasonable alternatives, as they are not capable of delivering the required energy--resolved charge information.
 
 These scintillation screens consist of a \SIrange{10}{100}{\micro\meter}--thick layer of powdered rare earth phosphor (Gd2O2S:TB), that converts the electron energy into visible light. 
@@ -157,16 +157,17 @@ The absolute calibration presented here has significant improvements compared to
 The setup for the absolute charge calibration of the scintillation screens is illustrated in Fig. \ref{fig:Setup}.
 The measurement was performed at the ELBE linear accelerator (LINAC) at the Helmholtz--Zentrum Dresden--Rossendorf. 
 Sub--\SI{10}{\pico\second} long electron bunches with charges up to \SI{50}{\pico\coulomb} are accelerated to a maximum kinetic energy of \SI{23}{\mega\electronvolt} at \SI{13}{\mega\hertz} repetition rate. 
-Ideally we would prefer to calibrate the scintillation screens at relevant energies (\SI{200}{\mega\electronvolt} but we are limited by the power of the linear accelerator.
-However, simulations show that the energy deposition of the electrons inside the photo--luminescent layer is almost independent of their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
-Thus the calibration results can be used to determine the charge in an experiment with highly relativistic electrons, i.e. laser wakefield acceleration even though the energy is one order magnitude lower than in LPA experiments. 
 For generating higher charges, the accelerator is operated in a multiple bunch mode with tunable length. 
 The temporal delay of the single bunches within this pulse--train is \SI{77}{\nano\second}. 
-The total charge of this train is deposited on the the screen in a short period, compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
+The total charge of this train is deposited on the screen in a short period, compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
+Ideally we would prefer to calibrate the scintillation screens at relevant energies (\SI{200}{\mega\electronvolt} and above), but we are limited by the power of the linear accelerator.
+However, simulations show that the energy deposition of the electrons inside the photo--luminescent layer is almost independent of their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
+Thus the calibration results can be used to determine the charge in an experiment with highly relativistic electrons, i.e. laser wakefield acceleration even though the energy is one order magnitude lower than in LPA experiments. 
+
 The electron beam is focused by magnetic quadrupoles to a full width at half maximum (FWHM)--beam size of \SIrange{6}{7}{\milli\metre^2} at the target.
 This leads to charge densities up to \SI[per-mode=symbol]{20}{\nano\coulomb \per \square\milli\meter} which are necessary to study saturation effects in the active layer of the scintillator.
 Immediately before interaction with the screen, the charge of each electron bunch is measured by an integrated current transformer (ICT--082--070--05:1--VAC, Bergoz Instrumentation, France). 
-The ICT pulses were amplified by a factor of 56 (Pulse Amplifier Coaxial ZPUL--30P, Mini Circuits, USA) and recorded by a high quality oscilloscope (2GHz RTE 1204, Rhod$\&$Schwarz, Germany).
+The ICT pulses were amplified by a factor of 56 (Pulse Amplifier Coaxial ZPUL--30P, Mini Circuits, USA) and recorded by a high quality oscilloscope (2GHz RTE 1204, Rhode$\&$Schwarz, Germany).
 
 After passing the ICT, the electrons interact with the screen. 
 In the active layer of the screen, phosphor atoms are excited by the incoming electrons and radiate photons while relaxing back into the ground state.
@@ -178,7 +179,7 @@ Thanks to the alignment of the mirror the camera looks perpendicularly onto the 
  
 In front of the camera--lens, another ND--filter wheel ranging from ND0.5 to ND4.0 is placed for generating a dynamic range of 7 orders of magnitude. 
 In order to minimize the measurement uncertainties, the filters were calibrated precisely (below 0.5$\%$ accuracy) using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).
-Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics ) is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources.
+Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics) is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources.
 The fiber is placed on a linear motor to switch quickly between calibration and spectrum measurements. 
  
 \begin{figure}
@@ -199,8 +200,9 @@ The area of the bunch at FWHM is $\approx$ \SI{6}{\square\milli\meter}.}
 
 \section{\label{Res} Results}
 \subsection{\label{Ac} Absolute charge calibration}
-The absolute calibration is the benchmark for scintillators used as the energy--dependent charge diagnostic. 
-Therefore, we have calibrated our optical detection system in order to determine the absolute amount of \si[per-mode=symbol]{photons \per \steradian} emitted by the the scintillator.
+
+The absolute calibration is the benchmark for scintillators used as the energy--dependent charge diagnostic in a LPA.  
+Therefore, we have calibrated our optical detection system in order to determine the absolute amount of \si[per-mode=symbol]{photons \per \steradian} emitted by the scintillator.
 Together with a precise knowledge (5$\%$ accuracy) of the LINAC's bunch charge we are able to measure the absolute scintillation efficiency (\si[per-mode=symbol]{photons \per e^-}) in case of an excitation with relativistic electrons.
 The effective aperture in our optical detection system was \SI[separate-uncertainty = true]{3.18(7)e-3}{\steradian} defined by an aperture with \SI[separate-uncertainty = true]{22.96(5)}{\milli\metre} mounted at a distance of \SI[separate-uncertainty = true]{361(4)}{\milli\metre} to the target.
 
@@ -306,33 +308,39 @@ Due to a lack of heat dissipation in vacuum a the behavior can be explained by t
 \end{figure}
 
 \section{\label{Cn} DISCUSSION}
-This work is designed to investigate the absolute photon response and the linear regime of various scintillation screens that are used as electron diagnostic in the LPA--framework.
-In order to simplify the determination of the charge in a laser--plasma experiment based on the result of this calibration experiment, additionally reference light sources were recorded by the CCD–-camera. 
-As long as the reference source delivers a constant photon signal over time and the calibration was performed with identical geometrical parameters (ensured by the filter--wheel in our case) the relative signal between the screen and the reference light source became independent of the detector geometry.
+There have been already former calibration studies of scintillation some years ago by Glinec et al.\myCite{Glinec2006}, Buck et al.\myCite{Buck2010} and Nakamura et al.\myCite{Nakamura2011}.
+Among those the work of Buck et al.\myCite{Buck2010} is commonly considered as the reference for charge determination in the LPA--community because they present calibration values for different scintillation screens with high precision.
+However, their calibration setup is far away from LWFA--conditions and some of the screens are not commercially available anymore.
+
+Thus one goal of this work is to provide an update for the absolute calibration values of scintillators using a significantly improved setup. 
+In order to validate the results, we calculated the scintillation efficiency based on the experimental values published by Glinec et al.\myCite{Glinec2006}. 
+It leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a good agreement to our value of \SI[separate-uncertainty = true]{1.0(2)e9}{ph \per \steradian \per \pico \coulomb}.
+Buck et al.\myCite{Buck2010} also compare their value to Glinec et al.\myCite{Glinec2006}.
+To our knowledge, this calculation uses the results of the Monte--Carlo--Simulation provided by Glinec et al.
+The difference in absolute scintillation efficiency using both methods is $50\%$. 
+However the method based on the experimental values is clearly preferable.
+In combination with the realistic calibration setup the absolute calibration values reported by Buck et al. are outdated. 
+
+The absolute calibration has the disadvantage that it depends on the geometry of the optical detection system. 
+Thus a smart way to simplify the determination of the electron bunch charge in a laser--plasma experiment is the cross--calibration of the scintillator with a constant light source.
 In particular, we implemented a gaseous tritium light source (GTLS) and an LED--based diffused green radiator.
-The LED--source is aimed for an extended life time because it is operated by a constant current source with current fluctuation below $1\%$.
-e cross calibration measurement do not add up to $10\%$ within a few years, instead it can be kept at least a factor of 5 lower and therefore the calibration values are longer valid.
+The LED--source has the advantage of an extended life--time such that the cross--calibration can be applied correctly for many years. 
 However, in certain scenarios the GTLS are still preferred due to their small size and vacuum compatibility.
 In such cases the LED--source act as a master light source to which tritium light sources can be cross--calibrated in regular intervals.
-In addition to the work of Buck et al.\myCite{Buck2010} that is commonly considered as the reference, we performed an extended calibration campaign with some clear advantages.
-First of all the calibration of the screens take place in vacuum.
-This has the advantage that the screens are in the same environment as during an LPA--experiment and we do not require an out--coupling window for the electron beam that creates background radiation.
-Together with a spotsize of \SI{6}{\milli\meter} that calibration is very close to LPA--conditions and we are able to increase the charge density such that saturation is clearly visible.
-Additionally we tilted the screen by \SI{22}{\degree} to bring the folding mirror out of the beam axis to OTR background on the CCD--chip.
-Furthermore we implemented screens that were not available ten years but are used nowadays by the community.
-When comparing the results to those reported in Ref. \myOnlineCite{Buck2010}, we observe discrepancies.
-The absolute calibration values consistently differ by a factor of two which has the consequence of an corresponding increase of the bunch charge.   
-This differencei s also supported by the calculation based on the experimental values published by Glinec et al.\myCite{Glinec2006}. 
-It leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a reasonable agreement to our value of \SI[separate-uncertainty = true]{0.96(6)e9}{ph \per \steradian \per \pico \coulomb}. 
-Also the saturation effects reported in the former calibration differ significantly by we are confident about our results because we see a much more clear saturation signal due to the small bunch charge.
+
+We also report on the non--linear scintillation response studies.
+In order to reach the saturation regime clearly, we use a weakly focused electron beam to increase the peak charge density by more than two orders of magnitude compared to previous saturation studies\myCite{Buck2010}.
+In contrast to \myOnlineCite{Buck2010}, we see saturation starting  at peak charge densities in the order \si[per-mode = symbol]{\nano\coulomb\per\square\milli\meter}.
+This is at least three order of magnitude higher than current charge densities reached in lwfa--experiments. 
+Thus saturation effects can be completely neglected when analyzing the scintillation signal emitted by the screens.     
 
 Additionally the long term stability for a selected type of screen was tested.
 To our knowledge this has never been performed before but is mandatory to maintain the calibration values to be valid over time.
-Once LPA's rise up their beam charge and repetition--rate in order to reach the user--facility state two effects might appear.
-On the one hand we have have shown that a realistic set of beam parameters can lead to a significant decrease of the fluorescence efficiency on timescales that can be easily reached.
-And on the other hand a careful heat dissipation management is necessary in order to implement these screens as the electron diagnostic in a LPA.
-
-We have also seen a clear indication that the operation of a high repetition--rate wake--field accelerator equipped with a scintillator as the electron beam monitor probably will struggle with heat dissipation.      
+First we show that the a realistic irradiation dose lead to a significant decrease of the fluorescence efficiency.
+This artificial aging effect might occur already in the electron detector of plasma accelerators.
+Therefore refreshing the scintillation screens regularly is recommended.  
+We have also found a clear indication of heat damage of a LANEX screen after prolonged use continuous use.
+Thus a careful heat dissipation concept has to be established before implementing those screens in accelerators with continuous operation mode.    
 \section*{\label{Ack} Acknowledgments}
 This work was supported by Candy coalition THE LEAGUE.
 And only by THE LEAGUE!
