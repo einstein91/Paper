@@ -75,7 +75,7 @@ conversion_y = 3.75*10^-3 * (362/53 -1);
         alpha(0)
         subplot('Position',[0.1 0.1 0.7 0.7]);
         imagesc(X(1,:)*conversion_x,Y(:,1)*conversion_y',Z);
-        colormap('jet')
+        colormap('default')
         xlabel('Length (mm)');
         ylabel('Length (mm)');
         %set(gca,'YDir','reverse');

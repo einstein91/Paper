@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{30}%
+\begin{thebibliography}{34}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -276,6 +276,29 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Nat. Commun.}\ }\textbf {\bibinfo
   {volume} {4}},\ \bibinfo {pages} {1988} (\bibinfo {year} {2013})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Couperus}\ \emph {et~al.}(2017)\citenamefont
+  {Couperus}, \citenamefont {Pausch}, \citenamefont {Koehler}, \citenamefont
+  {Zarini}, \citenamefont {Kraemer}, \citenamefont {Garten}, \citenamefont
+  {Huebl}, \citenamefont {Gebhardt}, \citenamefont {Helbig}, \citenamefont
+  {Bock}, \citenamefont {Zeil}, \citenamefont {Debus}, \citenamefont
+  {Bussmann}, \citenamefont {Schramm},\ and\ \citenamefont
+  {Irman}}]{Couperus2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Couperus}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Pausch}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Koehler}}, \bibinfo
+  {author} {\bibfnamefont {O.}~\bibnamefont {Zarini}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Kraemer}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Garten}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Huebl}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Gebhardt}}, \bibinfo {author} {\bibfnamefont
+  {U.}~\bibnamefont {Helbig}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Bock}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Zeil}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Debus}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bussmann}}, \bibinfo
+  {author} {\bibfnamefont {U.}~\bibnamefont {Schramm}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Irman}},\ }\href@noop {} {\
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Li}\ \emph {et~al.}(2017)\citenamefont {Li},
   \citenamefont {Li}, \citenamefont {Huang}, \citenamefont {Tao}, \citenamefont
   {Li}, \citenamefont {Zhao}, \citenamefont {Ma}, \citenamefont {Guo},
@@ -296,6 +319,97 @@
   {Chen}},\ }\href {\doibase 10.1063/1.4975613} {\bibfield  {journal} {\bibinfo
    {journal} {Cit. Phys. Plasmas}\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
   {pages} {023108} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Leemans}\ \emph {et~al.}(2003)\citenamefont
+  {Leemans}, \citenamefont {Geddes}, \citenamefont {Faure}, \citenamefont
+  {T{\'{o}}th}, \citenamefont {{Van Tilborg}}, \citenamefont {Schroeder},
+  \citenamefont {Esarey}, \citenamefont {Fubiani}, \citenamefont {Auerbach},
+  \citenamefont {Marcelis}, \citenamefont {Carnahan}, \citenamefont {Kaindl},
+  \citenamefont {Byrd},\ and\ \citenamefont {Martin}}]{Leemans2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~P.}\ \bibnamefont
+  {Leemans}}, \bibinfo {author} {\bibfnamefont {C.~G.~R.}\ \bibnamefont
+  {Geddes}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Faure}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {T{\'{o}}th}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Van Tilborg}}}, \bibinfo {author}
+  {\bibfnamefont {C.~B.}\ \bibnamefont {Schroeder}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Esarey}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Fubiani}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Auerbach}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Marcelis}}, \bibinfo {author} {\bibfnamefont {M.~A.}\
+  \bibnamefont {Carnahan}}, \bibinfo {author} {\bibfnamefont {R.~A.}\
+  \bibnamefont {Kaindl}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Byrd}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Martin}},\ }\href {\doibase 10.1103/PhysRevLett.91.074802} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {91}},\ \bibinfo {pages} {074802} (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Green}\ \emph {et~al.}(2016)\citenamefont {Green},
+  \citenamefont {Kovalev}, \citenamefont {Asgekar}, \citenamefont {Geloni},
+  \citenamefont {Lehnert}, \citenamefont {Golz}, \citenamefont {Kuntzsch},
+  \citenamefont {Bauer}, \citenamefont {Hauser}, \citenamefont {Voigtlaender},
+  \citenamefont {Wustmann}, \citenamefont {Koesterke}, \citenamefont {Schwarz},
+  \citenamefont {Freitag}, \citenamefont {Arnold}, \citenamefont {Teichert},
+  \citenamefont {Justus}, \citenamefont {Seidel}, \citenamefont {Ilgner},
+  \citenamefont {Awari}, \citenamefont {Nicoletti}, \citenamefont {Kaiser},
+  \citenamefont {Laplace}, \citenamefont {Rajasekaran}, \citenamefont {Zhang},
+  \citenamefont {Winnerl}, \citenamefont {Schneider}, \citenamefont {Schay},
+  \citenamefont {Lorincz}, \citenamefont {Rauscher}, \citenamefont {Radu},
+  \citenamefont {M{\"{a}}hrlein}, \citenamefont {Kim}, \citenamefont {Lee},
+  \citenamefont {Kampfrath}, \citenamefont {Wall}, \citenamefont {Heberle},
+  \citenamefont {Malnasi-Csizmadia}, \citenamefont {Steiger}, \citenamefont
+  {M{\"{u}}ller}, \citenamefont {Helm}, \citenamefont {Schramm}, \citenamefont
+  {Cowan}, \citenamefont {Michel}, \citenamefont {Cavalleri}, \citenamefont
+  {Fisher}, \citenamefont {Stojanovic},\ and\ \citenamefont
+  {Gensch}}]{Green2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Green}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Kovalev}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Asgekar}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Geloni}}, \bibinfo {author}
+  {\bibfnamefont {U.}~\bibnamefont {Lehnert}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Golz}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kuntzsch}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Bauer}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Hauser}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Voigtlaender}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Wustmann}}, \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Koesterke}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Schwarz}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Freitag}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Arnold}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Teichert}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Justus}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Seidel}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Ilgner}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Awari}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Nicoletti}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Kaiser}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Laplace}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Rajasekaran}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Winnerl}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Schneider}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Schay}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Lorincz}}, \bibinfo {author} {\bibfnamefont {A.~A.}\
+  \bibnamefont {Rauscher}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Radu}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {M{\"{a}}hrlein}}, \bibinfo {author} {\bibfnamefont {T.~H.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Lee}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kampfrath}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Wall}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Heberle}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Malnasi-Csizmadia}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Steiger}}, \bibinfo {author} {\bibfnamefont {A.~S.}\
+  \bibnamefont {M{\"{u}}ller}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Helm}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Schramm}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Cowan}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Michel}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Cavalleri}}, \bibinfo {author}
+  {\bibfnamefont {A.~S.}\ \bibnamefont {Fisher}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Stojanovic}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Gensch}},\ }\href {\doibase
+  10.1038/srep22256} {\bibfield  {journal} {\bibinfo  {journal} {Sci. Rep.}\
+  }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {22256} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Jochmann}\ \emph {et~al.}(2013)\citenamefont
   {Jochmann}, \citenamefont {Irman}, \citenamefont {Bussmann}, \citenamefont
   {Couperus}, \citenamefont {Cowan}, \citenamefont {Debus}, \citenamefont
@@ -443,6 +557,15 @@
   10.1103/PhysRevX.2.031019} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. X}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {031019}
   (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}, \citenamefont {Ding},\ and\ \citenamefont
+  {Schroeder}(2012)}]{Huang2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Huang}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Ding}}, \ and\
+  \bibinfo {author} {\bibfnamefont {C.~B.}\ \bibnamefont {Schroeder}},\ }\href
+  {\doibase 10.1103/PhysRevLett.109.204801} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {109}},\ \bibinfo
+  {pages} {204801} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Steiniger}\ \emph {et~al.}(2014)\citenamefont
   {Steiniger}, \citenamefont {Bussmann}, \citenamefont {Pausch}, \citenamefont
   {Cowan}, \citenamefont {Irman}, \citenamefont {Jochmann}, \citenamefont
@@ -634,14 +757,6 @@
   10.1063/RevSciInstrum1.2360988} {\bibfield  {journal} {\bibinfo  {journal}
   {Rev. Sci. Instrum.}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages}
   {103301} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Giakoumakis}\ and\ \citenamefont
-  {Miliotis}(1985)}]{Giakoumakis1985}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont
-  {Giakoumakis}}\ and\ \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
-  {Miliotis}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Med. Biol.}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages} {21}
-  (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nakamura}\ \emph {et~al.}(2011)\citenamefont
   {Nakamura}, \citenamefont {Gonsalves}, \citenamefont {Lin}, \citenamefont
   {Smith}, \citenamefont {Rodgers}, \citenamefont {Donahue}, \citenamefont
@@ -658,4 +773,12 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Accel. Beams}\
   }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {062801} (\bibinfo
   {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Giakoumakis}\ and\ \citenamefont
+  {Miliotis}(1985)}]{Giakoumakis1985}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont
+  {Giakoumakis}}\ and\ \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Miliotis}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Med. Biol.}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages} {21}
+  (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
 \end{thebibliography}%
