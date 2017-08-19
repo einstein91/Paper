@@ -160,7 +160,7 @@ Sub--\SI{10}{\pico\second} long electron bunches with charges up to \SI{50}{\pic
 In order to generate higher charges, the accelerator is operated in multiple bunch mode at \SI{13}{\mega\hertz} with tunable length. 
 The temporal spacing between the corresponds to \SI{77}{\nano\second}. 
 Accordingly, the total charge of this train is deposited on the screen in a short period compared to the lifetime of the excited state ($\approx$ \SI{1}{\milli\second}) in the scintillator\myCite{Morlotti1997}.
-Although measuremnts are performed at a fixed energy of \SI{23.5}{\mega\electronvolt}, the calibration is valid over a large energy range.
+Although measurements are performed at a fixed energy of \SI{23.5}{\mega\electronvolt}, the calibration is valid over a large energy range.
 Simulations show that the energy deposition of the electrons inside the photo--luminescent layer is almost independent of their kinetic energy above a threshold--value of \SI{3}{\mega\electronvolt} \myCite{Hidding2007,Glinec2006,Masuda2008}.
 Additionally, Nakamura et al.\myCite{Nakamura2011} have shown experimentally that the scintillation signal has only a very weak dependency of the electron energy of $1\%$ per \SI{100}{\mega \electronvolt} energy variation.
 Thus the calibration results can be used to determine the charge of highly relativistic electron bunches from LPAs.
@@ -172,24 +172,26 @@ The ICT pulses were amplified by a factor of 56 (Pulse Amplifier Coaxial ZPUL--3
 
 After passing the ICT, the electrons interact with the screen. 
 In the active layer of the screen, phosphor atoms are excited by the incoming electrons and radiate photons while relaxing back into the ground state.
-The light emission distribution of the screens follows approximately Lambertian law\myCite{Giakoumakis1985}. 
-The screens were mounted on a rotating target wheel which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam.
-The deflector mirror is mounted out of the beam--axis to avoid any background from optical transition radiation (OTR).  
+The light emission distribution of the screens follows approximately Lambertian law\myCite{Giakoumakis1985}.
+The setup geometry was chosen such that the camera looks perpendicularly onto the screens which maximizes the light detected by the CCD--chip and the folding mirror was mounted off--axis to avoid OTR background signal on the CCD--chip.
+In practice, the screens were mounted on a rotating target wheel which was aligned \SI[separate-uncertainty = true]{22(1)}{\degree} relative to the electron beam. 
 The emitted photons with a peak wavelength $\uplambda_{\text{peak}}$ of \SI{546}{\nano\metre} are reflected by a silver mirror (Thorlabs, PF20-03-P01) under \SI[separate-uncertainty = true]{34(1)}{\degree} to a 12--bit CCD--camera (Basler, acA1300-30gm) equipped with a high--definition tele--objective. 
-Due to the alignment of the mirror the camera looks perpendicularly onto the screens which maximizes the light emission onto the CCD--chip according to Lambertian law.
- 
-In front of the camera--lens, a wheel equipped with a series of ND--filters ranging from ND0.5 to ND4.0 is placed generating a dynamic range of 7 orders of magnitude. 
-In order to minimize the measurement uncertainties, the filters were calibrated precisely (below 0.5$\%$ uncertainty) using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).
+For the broad charge range in this work, a dynamic range of seven orders of magnitude is required.
+This is achieved by ND--filters ranging from ND0.5 to ND4.0 which were calibrated precisely (below 0.5$\%$ uncertainty) using a well--calibrated photo--spectrometer (Cary\textsuperscript{\textregistered} 50 UV-VIS).
+Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics) is implemented in the setup in order to determine the spectrum of the scintillation screens.
+This information is required to determine the quantum efficiency and the strength of the ND--filters at the centroid wavelength of the scintillation screens. 
+
 The effective aperture in our optical detection system was \SI[separate-uncertainty = true]{3.18(7)e-3}{\steradian} defined by an aperture with \SI[separate-uncertainty = true]{22.96(5)}{\milli\metre} mounted at a distance of \SI[separate-uncertainty = true]{361(4)}{\milli\metre} to the target.
 For this small angle, the Lambertian distribution of the screen can be ignored.
-Additionally an optical fiber (M200L02S-A, Thorlabs) connected to a spectrometer (HR4000, Ocean Optics) is implemented in the setup in order to determine the spectrum of the scintillation screens and the constant light sources.
-The fiber is placed on a linear motor to switch quickly between calibration and spectrum measurements. 
+
+
  
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/Setup_V4}% Here is how to import EPS art
 \caption{\label{fig:Setup}Setup for absolute charge calibration of scintillation screens: ICT measures the charge of the electron beam. 
 Six different screens with an angle of $22\degree$ relative to the incoming electron beam were mounted on a filter wheel and optically imaged via a silver mirror onto a CCD--chip.
-In order to generate the desired dynamic range a set of ND--filters was placed in front of the camera.}
+In order to generate the desired dynamic range a set of ND--filters was placed in front of the camera.
+The effective collection angle is defined by an aperture in front of the tele--objective.}
 \end{figure}
 \begin{figure}
 \includegraphics[width=8.5cm]{./Figures/electron_bunch_V2}% Here is how to import EPS art
@@ -227,7 +229,7 @@ The photon--to--count conversion efficiency of \SI[separate-uncertainty = true]{
 
 The response functions for the different screens are shown in Fig. \ref{fig:Calib}.
 The curves show a linear behavior up to a threshold caused by saturation and degeneration effects (Sec. \ref{Se},\ref{Ls}).  
-In order to determine the calibration value for the absolute response of the different scintillator, a linear fit has been applied to all datapoints within the linear region.
+In order to determine the calibration value for the absolute response of the different scintillator, a linear fit has been applied to all data points within the linear region.
 The resulting calibration values are shown in Table \ref{table:res}. 
 The overall measurement uncertainty of $16\%$ includes the standard error of the mean of the images, the accuracy of the linear fit as well as the errors for the transmission probability $\upbeta$, the alignment angle deviation, the solid angle and the charge determination of the ICT. 
    
@@ -310,21 +312,26 @@ Due to the lack of heat dissipation in vacuum a the behavior can be explained by
 
 \section{\label{Cn} DISCUSSION}
 We present an absolute charge calibration measurement and linearity and long--stability test for various scintillators used as the electron bunch charge diagnostic in current laser accelerators performed under very realistic LPA--conditions.
-There were already former calibration studies of scintillators some years ago by Glinec et al.\myCite{Glinec2006}, Buck et al.\myCite{Buck2010} and Nakamura et al.\myCite{Nakamura2011}.
-Among those the work of Buck et al.\myCite{Buck2010} is commonly considered as the reference for charge determination in the LPA--community because they present calibration values for many different scintillation screens with high precision.
-However, their calibration is performed under conditions far away from those typically found in laser accelerators and some of the screens are not commercially available anymore.
-Thus the work presented here provides an update for the absolute calibration values of scintillators using a significantly improved setup.
-The absolute signal of of the scintillation screens varies over almost one order of magnitude.
+The measurements were performed with electron bunches with a pulse duration of less than \SI{10}{\pico\second} and energies of \SI{23.5}{\mega\electronvolt} delivered by the ELBE linear accelerator at the Helmholtz--Zentrum Dresden -- Rossendorf.
+The absolute scintillation efficiency of the different scintillation screens varies over almost one order of magnitude.
 Kodak BioMAX MS shows the brightest photon response with an absolute fluorescence efficiency of \SI[separate-uncertainty = true]{7.7(13)e9}{photons \per \per \steradian \pico \coulomb}.  
-When using a Cawo OG screen it also matters which surface is irradiated.
-The signal emitted by the back side is $50\%$ higher than the front side--signal.
-In order to compare the absolute calibration results, we calculated the scintillation efficiency based on the experimental values published by Glinec et al.\myCite{Glinec2006}. 
+Cawo OG has a front--side screen and a back--side screen for its actual usage in X--Ray imaging. 
+We found that the scintillation efficiency of the Cawo OG screens differ significantly in case of an excitation by relativistic electrons.
+The back--side screen has an efficiency that is $50\%$ higher than the efficiency of the front--side screen.
+ 
+There were already former calibration studies of scintillators some years ago by Glinec et al.\myCite{Glinec2006}, Buck et al.\myCite{Buck2010} and Nakamura et al.\myCite{Nakamura2011}.
+Among those the work of Buck et al.\myCite{Buck2010} is commonly considered as the reference for charge determination in the LPA--community because they present absolute  charge calibration values for many different scintillation screens.
+However, their calibration is performed under conditions far away from those typically found in laser accelerators and some of the screens are not commercially available anymore.
+When comparing the absolute calibration results to Buck et al.\myCite{Buck2010}, a consistent difference of approximately factor two less scintillation efficiency is obtained.
+Accordingly, the charge in LWFA experiments is increased by a factor of two.  
+In order to cross--check our absolute calibration results, we calculated the scintillation efficiency based on the experimental values published by Glinec et al.\myCite{Glinec2006}. 
 It leads to an absolute conversion efficiency for KODAK Lanex Fine of \SI[separate-uncertainty = true]{1.05(9)e9}{ph \per \steradian \per \pico \coulomb} which shows a good agreement to our value of \SI[separate-uncertainty = true]{1.0(2)e9}{ph \per \steradian \per \pico \coulomb}.
+Thus the work presented here provides a revision to the work by of Buck et al.\myCite{Buck2010} for the absolute calibration values of current types of scintillation screen using a significantly improved setup.
 
-The absolute calibration has the disadvantage that it depends on the geometry of the optical detection system. 
-We found that a smart way to avoid the afore mentioned error--sources and to simplify the determination of the electron bunch charge in a laser--plasma experiment is the cross--calibration of the scintillator with a constant light source.
-In particular, we implemented a gaseous tritium light source (GTLS) and an LED--based diffused green radiator.
-The LED--source has an extended life--time such that the cross--calibration can be applied correctly for many years. 
+In general, the absolute calibration has the disadvantage that it depends on the geometry of the optical detection system. 
+Cross--calibrating the scintillation screens to a constant light source is a smart way to avoid the afore mentioned error--sources and to simplify the determination of the electron bunch charge in a laser--plasma experiment.
+Specifically, we implemented a gaseous tritium light source (GTLS) and an LED--based diffused green radiator.
+The LED--source has a very long life--time such that the cross--calibration can be applied correctly for many years. 
 In certain scenarios the GTLS are still preferred due to their small size and vacuum compatibility.
 In such cases the LED--source acts as a master light source to which tritium light sources can be cross--calibrated in regular intervals.
 
